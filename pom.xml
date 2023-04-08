@@ -15,7 +15,7 @@
 	<properties>
 		<sonar.coverage.exclusions>
 			/src/main/java/com/bbva/rbvd/dto/lifeinsrc/commons/**.java,
-			/src/main/java/com/bbva/rbvd/dto/lifeinsrc/simulation/**.java
+			/src/main/java/com/bbva/rbvd/dto/lifeinsrc/simulation/**.java,
 			/src/main/java/com/bbva/rbvd/dto/lifeinsrc/mock/**.java,
 			/src/main/java/com/bbva/rbvd/dto/lifeinsrc/bo/**.java,
 			/src/main/java/com/bbva/rbvd/dto/lifeinsrc/mapper/ObjectMapperHelper.java,
