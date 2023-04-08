@@ -1,0 +1,37 @@
+{
+  "product": {
+    "id": "834",
+    "plans":[ {
+      "id": "11",
+      "totalInstallment": {
+        "currency": "PEN",
+        "amount": 179.01,
+        "period": {
+          "id": "MONTHLY"
+        }
+      },
+      "coverages":[ {
+        "id": "1"
+      }
+      ]
+    }
+    ]
+  },
+  "insuredAmount": {
+    "currency": "PEN",
+    "amount": 179.01
+  },
+  "holder": {
+    "id": "DNI",
+    "firstName":"ABC",
+    "lastName":"DEF",
+    "fullName":"GHI",
+    "identityDocument": {
+      "documentType": {
+        "id": "DNI"
+      },
+      "documentNumber": "04040005"
+    }
+  },
+  "externalSimulationId": "127d8063-d275-4900-afb3-de3cd846344f"
+}

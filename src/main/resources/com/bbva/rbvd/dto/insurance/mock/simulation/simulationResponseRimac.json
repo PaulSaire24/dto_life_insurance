@@ -1,0 +1,100 @@
+{
+  "payload": {
+    "cotizaciones": [
+      {
+        "cotizacion": "574e5906-7b9c-41e2-baaa-8e20b945b605",
+        "diasVigencia": "30",
+        "fechaFinVigencia": "2023-05-04",
+        "plan": {
+          "plan": 533628,
+          "descripcionPlan": "Prueba Easy yes 01",
+          "moneda": "PEN",
+          "primaNeta": 180,
+          "primaBruta": 180,
+          "financiamientos": [
+            {
+              "financiamiento": 24302,
+              "periodicidad": "Mensual",
+              "numeroCuotas": 1,
+              "indicadorDescuentoPrima": "N",
+              "montoNetoFraccionado": 150,
+              "montoPago": 150,
+              "fechaInicio": "2023-04-05",
+              "cuotasFinanciamiento": [
+                {
+                  "cuota": 1,
+                  "monto": 150,
+                  "fechaVencimiento": "2023-04-05",
+                  "moneda": "PEN"
+                }
+              ]
+            },
+            {
+              "financiamiento": 23774,
+              "periodicidad": "Anual",
+              "numeroCuotas": 1,
+              "indicadorDescuentoPrima": "S",
+              "montoNetoFraccionado": 150,
+              "montoPago": 150,
+              "fechaInicio": "2023-04-05",
+              "cuotasFinanciamiento": [
+                {
+                  "cuota": 1,
+                  "monto": 150,
+                  "fechaVencimiento": "2023-05-05",
+                  "moneda": "PEN"
+                }
+              ]
+            }
+          ],
+          "coberturas": [
+
+              {
+                "cobertura": 10923,
+                "descripcionCobertura": "Invalidez Total y Permanente por Accidente o Enfermedad",
+                "primaNeta": 1.09,
+                "primaBruta": 1.09,
+                "moneda": "PEN",
+                "sumaAsegurada": 20000,
+                "principal": "N",
+                "condicion": "OBL"
+              },
+              {
+                "cobertura": 10920,
+                "descripcionCobertura": "Fallecimiento",
+                "primaNeta": 12.82,
+                "primaBruta": 12.82,
+                "moneda": "PEN",
+                "sumaAsegurada": 20000,
+                "principal": "S",
+                "condicion": "OBL"
+              },
+              {
+                "cobertura": 10921,
+                "descripcionCobertura": "Indemnización Adicional Por Fallecimiento Accidental",
+                "primaNeta": 1.09,
+                "primaBruta": 1.09,
+                "moneda": "PEN",
+                "sumaAsegurada": 20000,
+                "principal": "N",
+                "condicion": "OBL"
+              }
+
+          ]
+        }
+      }
+    ],
+    "producto": "EASYYES01",
+    "moneda": "PEN",
+    "planes": [
+      533628
+    ],
+    "datosParticulares": [
+      {
+        "etiqueta": "CUMULO_CLIENTE",
+        "codigo": "",
+        "valor": "20000"
+      }
+    ]
+  }
+}
