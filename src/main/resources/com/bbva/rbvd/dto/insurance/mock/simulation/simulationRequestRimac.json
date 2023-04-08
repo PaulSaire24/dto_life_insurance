@@ -1,0 +1,21 @@
+{
+  "payload": {
+    "producto": "EASYYES01",
+    "moneda": "PEN",
+    "planes": [
+      533628
+    ],
+    "datosParticulares": [
+      {
+        "etiqueta": "CUMULO_CLIENTE",
+        "codigo": "",
+        "valor": "20000"
+      }
+    ],
+    "asegurado": {
+      "tipoDocumento": "L",
+      "numeroDocumento": "43242965"
+    },
+    "periodosConDescuentoPrima": [1]
+  }
+}

@@ -13,12 +13,43 @@
 	<packaging>bundle</packaging>
 	<description>Deployment unit dto_life_insurance of uuaa rbvd</description>
 	<properties>
+		<sonar.coverage.exclusions>
+			/src/main/java/com/bbva/rbvd/dto/lifeinsrc/commons/**.java,
+			/src/main/java/com/bbva/rbvd/dto/lifeinsrc/simulation/**.java
+			/src/main/java/com/bbva/rbvd/dto/lifeinsrc/mock/**.java,
+			/src/main/java/com/bbva/rbvd/dto/lifeinsrc/bo/**.java,
+			/src/main/java/com/bbva/rbvd/dto/lifeinsrc/mapper/ObjectMapperHelper.java,
+			/src/main/java/com/bbva/rbvd/dto/lifeinsrc/utils/**.java
+		</sonar.coverage.exclusions>
 		<osgi.version.manifest>0.0</osgi.version.manifest>
 	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.codehaus.jackson</groupId>
+			<artifactId>jackson-core-asl</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.codehaus.jackson</groupId>
+			<artifactId>jackson-mapper-asl</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>joda-time</groupId>
+			<artifactId>joda-time</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.bbva.elara</groupId>
+			<artifactId>elara-exception</artifactId>
+			<version>7.3.1-RELEASE</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.bbva.apx.dto</groupId>
+			<artifactId>apx-dto</artifactId>
+			<version>[0.0, )</version>
 		</dependency>
 	</dependencies>
 	<build>
