@@ -7,6 +7,7 @@ public enum RBVDErrors {
     SERVICE_CONNECT_DOCUMENT_PROCESSES("RBVD00000140", false, "Error en conexión a la api getDocumentProcess"),
     SERVER_ERROR("RBVD00000158", false, "Ocurrio un problema en el servidor");
 
+    
     private final String adviceCode;
     private final boolean rollback;
     private final String message;
