@@ -21,4 +21,5 @@ public class CoverageDTO extends CommonFieldsDTO {
         sb.append('}');
         return sb.toString();
     }
+
 }

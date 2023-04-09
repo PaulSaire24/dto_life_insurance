@@ -18,6 +18,7 @@
 			/src/main/java/com/bbva/rbvd/dto/lifeinsrc/simulation/**.java,
 			/src/main/java/com/bbva/rbvd/dto/lifeinsrc/mock/**.java,
 			/src/main/java/com/bbva/rbvd/dto/lifeinsrc/bo/**.java,
+			/src/main/java/com/bbva/rbvd/dto/lifeinsrc/aso/**.java,
 			/src/main/java/com/bbva/rbvd/dto/lifeinsrc/mapper/ObjectMapperHelper.java,
 			/src/main/java/com/bbva/rbvd/dto/lifeinsrc/utils/**.java
 		</sonar.coverage.exclusions>

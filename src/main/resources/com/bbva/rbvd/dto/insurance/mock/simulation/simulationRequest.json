@@ -11,7 +11,12 @@
         }
       },
       "coverages":[ {
-        "id": "1"
+        "id": "1",
+        "isSelected": true,
+        "coverageType": {
+          "name": "Por robo total segun el valor referencial",
+          "id": "1"
+        }
       }
       ]
     }

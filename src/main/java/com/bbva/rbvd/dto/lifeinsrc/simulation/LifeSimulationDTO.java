@@ -1,11 +1,12 @@
 package com.bbva.rbvd.dto.lifeinsrc.simulation;
 
 import com.bbva.apx.dto.AbstractDTO;
+import com.bbva.rbvd.dto.lifeinsrc.commons.CommonFieldsDTO;
 import com.bbva.rbvd.dto.lifeinsrc.commons.HolderDTO;
 import com.bbva.rbvd.dto.lifeinsrc.commons.InsuranceProductDTO;
 import com.bbva.rbvd.dto.lifeinsrc.commons.InsuredAmountDTO;
 
-public class LifeSimulationDTO extends AbstractDTO {
+public class LifeSimulationDTO extends CommonFieldsDTO {
 
     private InsuranceProductDTO product;
 
