@@ -1,0 +1,65 @@
+{
+
+    "product": {
+      "name": "ProductName",
+      "id": "123",
+      "plans": [
+        {
+          "id": "123",
+          "name": "PLAN BASICO",
+          "isRecommended": "S",
+          "totalInstallment": {
+            "amount": 212.7,
+            "currency": "USD",
+            "period": {
+              "name": "Mensual",
+              "id": "MONTHLY"
+            }
+          },
+          "installmentPlans": [
+          {
+            "paymentsTotalnumber": 12,
+            "paymentAmount": {
+              "amount": 212.7,
+              "currency": "USD"
+            },
+            "period": {
+              "name": "Mensual",
+              "id": "MONTHLY"
+            },
+            "coverages": [
+              {
+                "coverageType": {
+                  "name": "Por robo total segun el valor referencial",
+                  "id": "1"
+                },
+                "name": "Por robo total segun el valor referencial",
+                "id": "1",
+                "description": "description",
+                "isSelected": true
+              }
+            ]
+          }
+          ]
+        }
+      ]
+    },
+    "insuredAmount": {
+      "amount": 212.7,
+      "currency": "USD"
+    },
+    "holder": {
+      "id": "DNI",
+      "firstName":"ABC",
+      "lastName":"DEF",
+      "fullName":"GHI",
+      "identityDocument": {
+        "documentType": {
+          "id": "DNI"
+        },
+        "documentNumber": "04040005"
+      }
+    },
+    "externalSimulationId": "127d8063-d275-4900-afb3-de3cd846344f"
+
+}
