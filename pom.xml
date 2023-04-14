@@ -15,11 +15,11 @@
 	<properties>
 		<sonar.coverage.exclusions>
 			/src/main/java/com/bbva/rbvd/dto/lifeinsrc/commons/**.java,
-			/src/main/java/com/bbva/rbvd/dto/lifeinsrc/simulation/**.java,
 			/src/main/java/com/bbva/rbvd/dto/lifeinsrc/mock/**.java,
-			/src/main/java/com/bbva/rbvd/dto/lifeinsrc/bo/**.java,
-			/src/main/java/com/bbva/rbvd/dto/lifeinsrc/aso/**.java,
-			/src/main/java/com/bbva/rbvd/dto/lifeinsrc/mapper/ObjectMapperHelper.java,
+			/src/main/java/com/bbva/rbvd/dto/lifeinsrc/rimac/commons/**.java,
+			/src/main/java/com/bbva/rbvd/dto/lifeinsrc/rimac/quotation/**.java,
+			/src/main/java/com/bbva/rbvd/dto/lifeinsrc/rimac/simulation/**.java,
+			/src/main/java/com/bbva/rbvd/dto/lifeinsrc/simulation/**.java,
 			/src/main/java/com/bbva/rbvd/dto/lifeinsrc/utils/**.java
 		</sonar.coverage.exclusions>
 		<osgi.version.manifest>0.0</osgi.version.manifest>
