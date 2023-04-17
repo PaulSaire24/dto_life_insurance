@@ -1,0 +1,55 @@
+{
+  "product": {
+    "id": "835",
+    "plans": [
+      {
+        "id": "10",
+        "installmentPlans": [
+          {
+            "paymentsTotalNumber": 12,
+            "paymentAmount": {
+              "amount": 15.00,
+              "currency": "PEN"
+            },
+            "period": {
+              "id": "MONTHLY"
+            }
+          }
+        ],
+        "totalInstallment": {
+          "amount": 123.3,
+          "currency": "USD",
+          "period": {
+            "id": "MONTHLY"
+          }
+        },
+        "coverages": [
+          {
+            "id": "10923",
+            "coverageType": {
+              "id": "MANDATORY"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "insuredAmount": {
+    "amount": 180.00,
+    "currency": "USD"
+  },
+  "holder": {
+    "id": "37282913",
+    "firstName": "Fulano",
+    "lastName": "Sultano",
+    "fullName": "Fulano Sultano",
+    "identityDocument": {
+      "documentType": {
+        "id": "DNI"
+      },
+      "documentNumber": "88888888"
+    }
+  },
+  "isDataTreatment": true,
+  "externalSimulationId": "256c3b09-eca6-4430-a74b-e99ff907dff6"
+}

@@ -1,6 +1,5 @@
 package com.bbva.rbvd.dto.lifeinsrc.commons;
 
-
 public class HolderDTO extends CommonFieldsDTO {
 
     private String firstName;
@@ -8,24 +7,20 @@ public class HolderDTO extends CommonFieldsDTO {
     private String fullName;
     private IdentityDocumentDTO identityDocument;
 
-
     public String getFirstName() {
         return firstName;
     }
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
-
     public String getLastName() {
         return lastName;
     }
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
-
     public String getFullName() { return fullName; }
     public void setFullName(String fullName) { this.fullName = fullName; }
-
     public IdentityDocumentDTO getIdentityDocument() { return identityDocument; }
     public void setIdentityDocument(IdentityDocumentDTO identityDocument) { this.identityDocument = identityDocument; }
 

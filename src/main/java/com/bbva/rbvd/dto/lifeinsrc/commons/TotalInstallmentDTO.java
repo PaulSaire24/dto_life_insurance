@@ -6,7 +6,6 @@ public class TotalInstallmentDTO extends CommonFieldsDTO {
     private PeriodDTO period;
 
     public PeriodDTO getPeriod() { return period; }
-
     public void setPeriod(PeriodDTO period) { this.period = period; }
 
     @Override

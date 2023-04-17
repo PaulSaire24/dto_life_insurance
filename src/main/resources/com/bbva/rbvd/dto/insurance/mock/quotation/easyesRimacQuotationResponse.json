@@ -1,0 +1,146 @@
+{
+  "payload": {
+    "status": 1,
+    "mensaje": "Se realizó el registro correctamente",
+    "detalleCotizacion": [
+      {
+        "fechaCreacion": "2023-04-17",
+        "fechaExpiracion": "2023-05-17",
+        "cotizacion": "256c3b09-eca6-4430-a74b-e99ff907dff6",
+        "moneda": "PEN",
+        "indicadorSeleccionado": "S",
+        "planes": [
+          {
+            "plan": 533628,
+            "descripcionPlan": "Prueba Easy yes 01",
+            "primaNeta": 180,
+            "primaBruta": 180,
+            "financiamientos": [
+              {
+                "periodicidad": "Mensual",
+                "financiamiento": 23776,
+                "numeroCuotas": 12,
+                "fechaInicio": "2023-04-17",
+                "fechaFin": "2024-04-17",
+                "cuotasFinanciamiento": [
+                  {
+                    "cuota": 1,
+                    "monto": 15,
+                    "fechaVencimiento": "2023-04-17"
+                  },
+                  {
+                    "cuota": 2,
+                    "monto": 15,
+                    "fechaVencimiento": "2023-05-15"
+                  },
+                  {
+                    "cuota": 3,
+                    "monto": 15,
+                    "fechaVencimiento": "2023-06-15"
+                  },
+                  {
+                    "cuota": 4,
+                    "monto": 15,
+                    "fechaVencimiento": "2023-07-15"
+                  },
+                  {
+                    "cuota": 5,
+                    "monto": 15,
+                    "fechaVencimiento": "2023-08-15"
+                  },
+                  {
+                    "cuota": 6,
+                    "monto": 15,
+                    "fechaVencimiento": "2023-09-15"
+                  },
+                  {
+                    "cuota": 7,
+                    "monto": 15,
+                    "fechaVencimiento": "2023-10-15"
+                  },
+                  {
+                    "cuota": 8,
+                    "monto": 15,
+                    "fechaVencimiento": "2023-11-15"
+                  },
+                  {
+                    "cuota": 9,
+                    "monto": 15,
+                    "fechaVencimiento": "2023-12-15"
+                  },
+                  {
+                    "cuota": 10,
+                    "monto": 15,
+                    "fechaVencimiento": "2024-01-15"
+                  },
+                  {
+                    "cuota": 11,
+                    "monto": 15,
+                    "fechaVencimiento": "2024-02-15"
+                  },
+                  {
+                    "cuota": 12,
+                    "monto": 15,
+                    "fechaVencimiento": "2024-03-15"
+                  }
+                ]
+              },
+              {
+                "periodicidad": "Anual",
+                "financiamiento": 23774,
+                "numeroCuotas": 1,
+                "fechaInicio": "2023-04-17",
+                "fechaFin": "2024-04-17",
+                "cuotasFinanciamiento": [
+                  {
+                    "cuota": 1,
+                    "monto": 150,
+                    "fechaVencimiento": "2023-05-17"
+                  }
+                ]
+              }
+            ],
+            "coberturas": [
+              {
+                "cobertura": 10923,
+                "descripcionCobertura": "Invalidez Total y Permanente por Accidente o Enfermedad",
+                "tipoCobertura": "COB",
+                "primaBruta": 1.09,
+                "primaNeta": 1.09,
+                "moneda": "PEN",
+                "porcentajeSeleccionado": "100%",
+                "condicion": "OBL"
+              },
+              {
+                "cobertura": 10920,
+                "descripcionCobertura": "Fallecimiento",
+                "tipoCobertura": "COB",
+                "primaBruta": 12.82,
+                "primaNeta": 12.82,
+                "moneda": "PEN",
+                "porcentajeSeleccionado": "100%",
+                "condicion": "OBL"
+              },
+              {
+                "cobertura": 10921,
+                "descripcionCobertura": "Indemnización Adicional Por Fallecimiento Accidental",
+                "tipoCobertura": "COB",
+                "primaBruta": 1.09,
+                "primaNeta": 1.09,
+                "moneda": "PEN",
+                "porcentajeSeleccionado": "100%",
+                "condicion": "OBL"
+              }
+            ],
+            "datosParticulares": [
+              {
+                "etiqueta": "CUMULO_CLIENTE",
+                "valor": "20000"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
