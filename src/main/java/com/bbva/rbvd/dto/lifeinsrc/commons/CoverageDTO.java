@@ -1,6 +1,5 @@
 package com.bbva.rbvd.dto.lifeinsrc.commons;
 
-import com.bbva.rbvd.dto.lifeinsrc.quotation.UnitDTO;
 import com.bbva.rbvd.dto.lifeinsrc.simulation.CoverageTypeDTO;
 
 public class CoverageDTO extends CommonFieldsDTO {
