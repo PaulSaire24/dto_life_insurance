@@ -15,7 +15,7 @@ public class InstallmentsDTO extends CommonFieldsDTO {
 
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("InstallmentsSimulationDTO{");
+        final StringBuilder sb = new StringBuilder("InstallmentsDTO{");
         sb.append("paymentsTotalNumber=").append(paymentsTotalNumber).append('\'');
         sb.append(", paymentAmount=").append(paymentAmount).append('\'');
         sb.append(", period=").append(period).append('\'');

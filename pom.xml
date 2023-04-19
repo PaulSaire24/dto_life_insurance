@@ -16,6 +16,7 @@
 		<source.path>/src/main/java/com/bbva/rbvd/dto/lifeinsrc</source.path>
 		<sonar.coverage.exclusions>
 			${source.path}/commons/**.java,
+			${source.path}/dao/**.java,
 			${source.path}/mock/**.java,
 			${source.path}/quotation/**.java,
 			${source.path}/rimac/commons/**.java,
