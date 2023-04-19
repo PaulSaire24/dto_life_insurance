@@ -17,29 +17,29 @@
             }
           },
           "installmentPlans": [
-          {
-            "paymentsTotalnumber": 12,
-            "paymentAmount": {
-              "amount": 212.7,
-              "currency": "USD"
-            },
-            "period": {
-              "name": "Mensual",
-              "id": "MONTHLY"
-            },
-            "coverages": [
-              {
-                "coverageType": {
-                  "name": "Por robo total segun el valor referencial",
-                  "id": "1"
-                },
-                "name": "Por robo total segun el valor referencial",
-                "id": "1",
-                "description": "description",
-                "isSelected": true
+            {
+              "paymentsTotalNumber": 12,
+              "paymentAmount": {
+                "amount": 212.7,
+                "currency": "USD"
+              },
+              "period": {
+                "name": "Mensual",
+                "id": "MONTHLY"
               }
-            ]
-          }
+            }
+          ],
+          "coverages": [
+            {
+              "coverageType": {
+                "name": "Por robo total segun el valor referencial",
+                "id": "1"
+              },
+              "name": "Por robo total segun el valor referencial",
+              "id": "1",
+              "description": "description",
+              "isSelected": true
+            }
           ]
         }
       ]
