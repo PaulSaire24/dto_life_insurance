@@ -5,6 +5,9 @@ public enum RBVDProperties {
     SIMULATION_LIFE_URI("simulation.rimac.life.uri"),
     SIMULATION_LIFE_RIMAC("simulationlife.rimac"),
 
+    QUOTATION_EASYES_RIMAC_URI("uri.easyes.quotation"),
+    QUOTATION_EASYES_RIMAC("easyesquotation"),
+
     KEY_OF_INSRC_LIST_RESPONSES("dtoInsurance"),
 
     QUERY_GET_PRODUCT_INFORMATION("PISD.GET_PRODUCT_INFORMATION"),
