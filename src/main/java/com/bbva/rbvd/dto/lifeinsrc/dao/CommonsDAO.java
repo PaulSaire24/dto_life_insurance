@@ -5,6 +5,9 @@ import java.math.BigDecimal;
 public class CommonsDAO {
 
     private BigDecimal insuranceSimulationId;
+    private String insuranceBusinessName;
+    private String insuranceCompanyModalityId;
+    private String insuranceModalityName;
     private String policyQuotaInternalId;
     private BigDecimal insuranceProductId;
     private String insuranceProductDescription;
@@ -18,6 +21,12 @@ public class CommonsDAO {
 
     public BigDecimal getInsuranceSimulationId() { return insuranceSimulationId; }
     public void setInsuranceSimulationId(BigDecimal insuranceSimulationId) { this.insuranceSimulationId = insuranceSimulationId; }
+    public String getInsuranceBusinessName() {return insuranceBusinessName;}
+    public void setInsuranceBusinessName(String insuranceBusinessName) {this.insuranceBusinessName = insuranceBusinessName;}
+    public String getInsuranceCompanyModalityId() { return insuranceCompanyModalityId; }
+    public void setInsuranceCompanyModalityId(String insuranceCompanyModalityId) { this.insuranceCompanyModalityId = insuranceCompanyModalityId; }
+    public String getInsuranceModalityName() {return insuranceModalityName;}
+    public void setInsuranceModalityName(String insuranceModalityName) {this.insuranceModalityName = insuranceModalityName;}
     public String getPolicyQuotaInternalId() { return policyQuotaInternalId; }
     public void setPolicyQuotaInternalId(String policyQuotaInternalId) { this.policyQuotaInternalId = policyQuotaInternalId; }
     public BigDecimal getInsuranceProductId() { return insuranceProductId; }

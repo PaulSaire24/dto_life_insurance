@@ -17,6 +17,7 @@
 		<sonar.coverage.exclusions>
 			${source.path}/commons/**.java,
 			${source.path}/dao/**.java,
+			${source.path}/dao/quotation/**.java,
 			${source.path}/mock/**.java,
 			${source.path}/quotation/**.java,
 			${source.path}/rimac/commons/**.java,
