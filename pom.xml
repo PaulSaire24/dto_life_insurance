@@ -13,13 +13,19 @@
 	<packaging>bundle</packaging>
 	<description>Deployment unit dto_life_insurance of uuaa rbvd</description>
 	<properties>
+		<source.path>/src/main/java/com/bbva/rbvd/dto/lifeinsrc</source.path>
 		<sonar.coverage.exclusions>
-			/src/main/java/com/bbva/rbvd/dto/lifeinsrc/commons/**.java,
-			/src/main/java/com/bbva/rbvd/dto/lifeinsrc/simulation/**.java,
-			/src/main/java/com/bbva/rbvd/dto/lifeinsrc/mock/**.java,
-			/src/main/java/com/bbva/rbvd/dto/lifeinsrc/bo/**.java,
-			/src/main/java/com/bbva/rbvd/dto/lifeinsrc/mapper/ObjectMapperHelper.java,
-			/src/main/java/com/bbva/rbvd/dto/lifeinsrc/utils/**.java
+			${source.path}/aso/**.java,
+			${source.path}/commons/**.java,
+			${source.path}/dao/**.java,
+			${source.path}/dao/quotation/**.java,
+			${source.path}/mock/**.java,
+			${source.path}/quotation/**.java,
+			${source.path}/rimac/commons/**.java,
+			${source.path}/rimac/quotation/**.java,
+			${source.path}/rimac/simulation/**.java,
+			${source.path}/simulation/**.java,
+			${source.path}/utils/**.java
 		</sonar.coverage.exclusions>
 		<osgi.version.manifest>0.0</osgi.version.manifest>
 	</properties>

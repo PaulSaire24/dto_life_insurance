@@ -1,21 +1,17 @@
 package com.bbva.rbvd.dto.lifeinsrc.simulation;
 
-import com.bbva.apx.dto.AbstractDTO;
+import com.bbva.rbvd.dto.lifeinsrc.commons.CommonFieldsDTO;
 import com.bbva.rbvd.dto.lifeinsrc.commons.HolderDTO;
 import com.bbva.rbvd.dto.lifeinsrc.commons.InsuranceProductDTO;
 import com.bbva.rbvd.dto.lifeinsrc.commons.InsuredAmountDTO;
 
-public class LifeSimulationDTO extends AbstractDTO {
+public class LifeSimulationDTO extends CommonFieldsDTO {
 
     private InsuranceProductDTO product;
 
     private InsuredAmountDTO insuredAmount;
 
     private HolderDTO holder;
-
-    private Boolean isDataTreatment;
-
-    private String externalSimulationId;
 
     public InsuranceProductDTO getProduct() { return product; }
 
@@ -29,14 +25,6 @@ public class LifeSimulationDTO extends AbstractDTO {
 
     public void setHolder(HolderDTO holder) { this.holder = holder; }
 
-    public Boolean getDataTreatment() { return isDataTreatment; }
-
-    public void setDataTreatment(Boolean dataTreatment) { isDataTreatment = dataTreatment; }
-
-    public String getExternalSimulationId() { return externalSimulationId; }
-
-    public void setExternalSimulationId(String externalSimulationId) { this.externalSimulationId = externalSimulationId; }
-
 
     @Override
     public String toString() {
@@ -44,8 +32,8 @@ public class LifeSimulationDTO extends AbstractDTO {
         sb.append("holder=").append(holder);
         sb.append(", product=").append(product);
         sb.append(", insuredAmount=").append(insuredAmount);
-        sb.append(", isDataTreatment=").append(isDataTreatment);
-        sb.append(", externalSimulationId=").append(externalSimulationId);
+        sb.append(", isDataTreatment=").append(this.getIsDataTreatment());
+        sb.append(", externalSimulationId=").append(this.getExternalSimulationId());
         sb.append('}');
         return sb.toString();
     }

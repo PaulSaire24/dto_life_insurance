@@ -1,13 +1,11 @@
 package com.bbva.rbvd.dto.lifeinsrc.commons;
 
-
 public class HolderDTO extends CommonFieldsDTO {
 
     private String firstName;
     private String lastName;
     private String fullName;
     private IdentityDocumentDTO identityDocument;
-
 
     public String getFirstName() {
         return firstName;

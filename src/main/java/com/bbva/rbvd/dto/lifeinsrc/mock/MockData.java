@@ -1,20 +1,18 @@
 package com.bbva.rbvd.dto.lifeinsrc.mock;
 
 
-import com.bbva.rbvd.dto.lifeinsrc.bo.simulation.InsuranceLifeSimulationBO;
-import com.bbva.rbvd.dto.lifeinsrc.mapper.ObjectMapperHelper;
+import com.bbva.rbvd.dto.lifeinsrc.rimac.simulation.InsuranceLifeSimulationBO;
 import com.bbva.rbvd.dto.lifeinsrc.simulation.LifeSimulationDTO;
 
 import java.io.IOException;
 
-public final class MockData {
+public class MockData {
 
     private static final MockData INSTANCE = new MockData();
-    private ObjectMapperHelper objectMapperHelper = ObjectMapperHelper.getInstance();
 
-    private MockData() {
+    private final ObjectMapperHelper objectMapperHelper;
 
-    }
+    private MockData() {objectMapperHelper = ObjectMapperHelper.getInstance();}
 
     public static MockData getInstance() {
         return INSTANCE;
