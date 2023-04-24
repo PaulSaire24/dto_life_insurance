@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>com.bbva.elara</groupId>
 		<artifactId>elara-project</artifactId>
-		<version>7.9.6</version>
+		<version>7.8.9</version>
 	</parent>
 	<groupId>com.bbva.rbvd.dto.lifeinsrc</groupId>
 	<artifactId>RBVDC301</artifactId>
@@ -16,9 +16,11 @@
 		<source.path>/src/main/java/com/bbva/rbvd/dto/lifeinsrc</source.path>
 		<sonar.coverage.exclusions>
 			${source.path}/aso/**.java,
+			${source.path}/bo/**.java,
 			${source.path}/commons/**.java,
 			${source.path}/dao/**.java,
 			${source.path}/dao/quotation/**.java,
+			${source.path}/mapper/**.java,
 			${source.path}/mock/**.java,
 			${source.path}/quotation/**.java,
 			${source.path}/rimac/commons/**.java,
