@@ -8,8 +8,8 @@ public class InsuranceProductModalityDAO extends CommonsDAO {
     }
 
     public InsuranceProductModalityDAO(String insuranceCompanyModalityId, String insuranceModalityName, String suggestedModalityIndType) {
-        this.insuranceCompanyModalityId = insuranceCompanyModalityId;
-        this.insuranceModalityName = insuranceModalityName;
+        this.setInsuranceCompanyModalityId(insuranceCompanyModalityId);
+        this.setInsuranceModalityName(insuranceModalityName);
         this.suggestedModalityIndType = suggestedModalityIndType;
     }
 
@@ -47,8 +47,6 @@ public class InsuranceProductModalityDAO extends CommonsDAO {
         this.insuranceCompanyDesc = insuranceCompanyDesc;
     }
 
-    private String insuranceCompanyModalityId;
-    private String insuranceModalityName;
     private String suggestedModalityIndType;
     private String insuranceCompanyId;
     private String insuranceCompanyDesc;
@@ -56,10 +54,7 @@ public class InsuranceProductModalityDAO extends CommonsDAO {
     private String flexiblePlanIndicator;
     private String newModalityIndType;
 
-    public String getInsuranceCompanyModalityId() { return insuranceCompanyModalityId; }
-    public void setInsuranceCompanyModalityId(String insuranceCompanyModalityId) { this.insuranceCompanyModalityId = insuranceCompanyModalityId; }
-    public String getInsuranceModalityName() { return insuranceModalityName; }
-    public void setInsuranceModalityName(String insuranceModalityName) { this.insuranceModalityName = insuranceModalityName; }
+
     public String getSuggestedModalityIndType() { return suggestedModalityIndType; }
     public void setSuggestedModalityIndType(String suggestedModalityIndType) { this.suggestedModalityIndType = suggestedModalityIndType; }
     public String getInsuranceCompanyId() {return insuranceCompanyId;}
