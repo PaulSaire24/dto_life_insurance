@@ -10,6 +10,7 @@ public class SimulationDAO extends CommonsDAO {
     private String bankFactorType;
     private BigDecimal bankFactorAmount;
     private BigDecimal bankFactorPer;
+    private String participantPersonalId;
 
     public String getInsrncCompanySimulationId() { return insrncCompanySimulationId; }
     public void setInsrncCompanySimulationId(String insrncCompanySimulationId) { this.insrncCompanySimulationId = insrncCompanySimulationId; }
@@ -23,6 +24,8 @@ public class SimulationDAO extends CommonsDAO {
     public void setBankFactorAmount(BigDecimal bankFactorAmount) { this.bankFactorAmount = bankFactorAmount; }
     public BigDecimal getBankFactorPer() { return bankFactorPer; }
     public void setBankFactorPer(BigDecimal bankFactorPer) { this.bankFactorPer = bankFactorPer; }
+    public String getParticipantPersonalId() { return participantPersonalId; }
+    public void setParticipantPersonalId(String participantPersonalId) { this.participantPersonalId = participantPersonalId; }
 
     @Override
     public String toString() {
@@ -35,6 +38,7 @@ public class SimulationDAO extends CommonsDAO {
         sb.append(", bankFactorType='").append(bankFactorType).append('\'');
         sb.append(", bankFactorAmount=").append(bankFactorAmount);
         sb.append(", bankFactorPer=").append(bankFactorPer);
+        sb.append(", participantPersonalId=").append(participantPersonalId);
         sb.append('}');
         return sb.toString();
     }
