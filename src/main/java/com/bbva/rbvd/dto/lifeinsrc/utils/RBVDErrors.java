@@ -6,7 +6,9 @@ public enum RBVDErrors {
     ERROR_FROM_RIMAC("RBVD00000119", false, "Error desde Rimac con la cotizacion enviada"),
     WRONG_PRODUCT_CODE("RBVD01020022", false, "El codigo de producto enviado es incorrecto"),
     WRONG_PLAN_CODES("RBVD01020023", false, "Los codigos de los planes son incorrectos"),
-    INSERTION_ERROR_IN_SIMULATION_TABLE("RBVD01020024", false, "Parametros requeridos incompletos para el registro de simulacion");
+    INSERTION_ERROR_IN_SIMULATION_TABLE("RBVD01020024", false, "Parametros requeridos incompletos para el registro de simulacion"),
+    ERROR_CONNECTION_CRYPTO_ASO_SERVICE("RBVD01020025", false, "No se pudo realizar una conexión con el servicio Crypto ASO"),
+    ERROR_CONNECTION_TIER_ASO_SERVICE("RBVD01020026", false, "No se pudo realizar una conexión con el servicio Tier ASO");
     
     private final String adviceCode;
     private final boolean rollback;
