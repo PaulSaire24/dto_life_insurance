@@ -1,5 +1,6 @@
 package com.bbva.rbvd.dto.lifeinsrc.commons;
 
+
 public class InstallmentsDTO extends CommonFieldsDTO {
 
     private Long paymentsTotalNumber;

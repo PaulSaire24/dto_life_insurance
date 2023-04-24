@@ -6,7 +6,8 @@ public class PeriodDTO extends CommonFieldsDTO {
     public String toString() {
         final StringBuilder sb = new StringBuilder("PeriodDTO{");
         sb.append("id=").append(this.getId()).append('\'');
-        sb.append(", name=").append(this.getName());
+        sb.append(", name=").append(this.getName()).append('\'');
+        sb.append(", isAvailable=").append(this.getIsAvailable());
         sb.append('}');
         return sb.toString();
     }

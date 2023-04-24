@@ -12,6 +12,7 @@ public class CoverageDTO extends CommonFieldsDTO {
     public UnitDTO getUnit() {return unit;}
     public void setUnit(UnitDTO unit) {this.unit = unit;}
 
+
     @Override
     public String toString() {
         final StringBuilder sb = new StringBuilder("CoverageDTO{");

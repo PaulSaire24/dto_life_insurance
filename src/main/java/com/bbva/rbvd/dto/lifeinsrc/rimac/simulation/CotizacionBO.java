@@ -9,6 +9,8 @@ public class CotizacionBO extends CommonFieldsBO {
     private String fechaFinVigencia;
     private PlanBO plan;
 
+    private Long indicadorBloqueo;
+
     public String getDiasVigencia() { return diasVigencia; }
     public void setDiasVigencia(String diasVigencia) { this.diasVigencia = diasVigencia; }
     public String getFechaFinVigencia() { return fechaFinVigencia; }
@@ -16,4 +18,7 @@ public class CotizacionBO extends CommonFieldsBO {
     public PlanBO getPlan() { return plan; }
     public void setPlan(PlanBO plan) { this.plan = plan; }
 
+    public Long getIndicadorBloqueo() { return indicadorBloqueo; }
+
+    public void setIndicadorBloqueo(Long indicadorBloqueo) { this.indicadorBloqueo = indicadorBloqueo; }
 }

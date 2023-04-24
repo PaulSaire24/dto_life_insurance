@@ -7,11 +7,12 @@ public class InsurancePlanDTO extends CommonFieldsDTO {
     private String isRecommended;
     private TotalInstallmentDTO totalInstallment;
     private List<CoverageDTO> coverages;
-    private List<InstallmentsDTO> installmentPlans;
 
+    private List<InstallmentsDTO> installmentPlans;
 
     public String getIsRecommended() { return isRecommended; }
     public void setIsRecommended(String isRecommended) { this.isRecommended = isRecommended; }
+
     public TotalInstallmentDTO getTotalInstallment() { return totalInstallment; }
     public void setTotalInstallment(TotalInstallmentDTO totalInstallment) { this.totalInstallment = totalInstallment; }
     public List<CoverageDTO> getCoverages() { return coverages; }

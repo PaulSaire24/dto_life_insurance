@@ -13,14 +13,17 @@ public class HolderDTO extends CommonFieldsDTO {
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
+
     public String getLastName() {
         return lastName;
     }
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
+
     public String getFullName() { return fullName; }
     public void setFullName(String fullName) { this.fullName = fullName; }
+
     public IdentityDocumentDTO getIdentityDocument() { return identityDocument; }
     public void setIdentityDocument(IdentityDocumentDTO identityDocument) { this.identityDocument = identityDocument; }
 

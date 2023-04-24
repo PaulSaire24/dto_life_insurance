@@ -15,9 +15,12 @@
 	<properties>
 		<source.path>/src/main/java/com/bbva/rbvd/dto/lifeinsrc</source.path>
 		<sonar.coverage.exclusions>
+			${source.path}/aso/**.java,
+			${source.path}/bo/**.java,
 			${source.path}/commons/**.java,
 			${source.path}/dao/**.java,
 			${source.path}/dao/quotation/**.java,
+			${source.path}/mapper/**.java,
 			${source.path}/mock/**.java,
 			${source.path}/quotation/**.java,
 			${source.path}/rimac/commons/**.java,
