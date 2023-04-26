@@ -7,7 +7,7 @@
         {
           "id": "123",
           "name": "PLAN BASICO",
-          "isRecommended": "S",
+          "isRecommended": true,
           "totalInstallment": {
             "amount": 212.7,
             "currency": "USD",
