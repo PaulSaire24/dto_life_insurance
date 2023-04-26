@@ -4,14 +4,16 @@ import java.util.List;
 
 public class InsurancePlanDTO extends CommonFieldsDTO {
 
-    private String isRecommended;
+    private Boolean isRecommended;
     private TotalInstallmentDTO totalInstallment;
     private List<CoverageDTO> coverages;
 
     private List<InstallmentsDTO> installmentPlans;
 
-    public String getIsRecommended() { return isRecommended; }
-    public void setIsRecommended(String isRecommended) { this.isRecommended = isRecommended; }
+    public boolean getIsRecommended() {
+        return this.isRecommended;
+    }
+    public void setIsRecommended(boolean isRecommended) { this.isRecommended = isRecommended; }
 
     public TotalInstallmentDTO getTotalInstallment() { return totalInstallment; }
     public void setTotalInstallment(TotalInstallmentDTO totalInstallment) { this.totalInstallment = totalInstallment; }
