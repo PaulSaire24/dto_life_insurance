@@ -7,7 +7,6 @@ public class InsurancePlanDTO extends CommonFieldsDTO {
     private Boolean isRecommended;
     private TotalInstallmentDTO totalInstallment;
     private List<CoverageDTO> coverages;
-
     private List<InstallmentsDTO> installmentPlans;
 
     public boolean getIsRecommended() {
@@ -31,6 +30,7 @@ public class InsurancePlanDTO extends CommonFieldsDTO {
         sb.append(", totalInstallment='").append(totalInstallment).append('\'');
         sb.append(", coverages='").append(coverages).append('\'');
         sb.append(", installmentPlans='").append(installmentPlans).append('\'');
+        sb.append(", isAvailable='").append(this.getIsAvailable()).append('\'');
         sb.append('}');
         return sb.toString();
     }
