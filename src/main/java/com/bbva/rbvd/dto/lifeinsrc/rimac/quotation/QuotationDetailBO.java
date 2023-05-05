@@ -10,6 +10,7 @@ public class QuotationDetailBO extends CommonFieldsBO {
     private String fechaCreacion;
     private String fechaExpiracion;
     private String indicadorSeleccionado;
+    private String nroDocumento;
     private List<PlanBO> planes;
 
     public String getFechaCreacion() {return fechaCreacion;}
@@ -18,6 +19,8 @@ public class QuotationDetailBO extends CommonFieldsBO {
     public void setFechaExpiracion(String fechaExpiracion) {this.fechaExpiracion = fechaExpiracion;}
     public String getIndicadorSeleccionado() {return indicadorSeleccionado;}
     public void setIndicadorSeleccionado(String indicadorSeleccionado) {this.indicadorSeleccionado = indicadorSeleccionado;}
+    public String getNroDocumento() {return nroDocumento;}
+    public void setNroDocumento(String nroDocumento) {this.nroDocumento = nroDocumento;}
     public List<PlanBO> getPlanes() {return planes;}
     public void setPlanes(List<PlanBO> planes) {this.planes = planes;}
 

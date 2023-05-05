@@ -2,20 +2,18 @@ package com.bbva.rbvd.dto.lifeinsrc.rimac.commons;
 
 import java.math.BigDecimal;
 
-import java.util.Date;
-
 public class CuotaFinanciamientoBO extends CommonFieldsBO {
 
     private Long cuota;
     private BigDecimal monto;
-    private Date fechaVencimiento;
+    private String fechaVencimiento;
 
     public Long getCuota() { return cuota; }
     public void setCuota(Long cuota) { this.cuota = cuota; }
     public BigDecimal getMonto() { return monto; }
     public void setMonto(BigDecimal monto) { this.monto = monto; }
-    public Date getFechaVencimiento() { return fechaVencimiento; }
-    public void setFechaVencimiento(Date fechaVencimiento) { this.fechaVencimiento = fechaVencimiento; }
+    public String getFechaVencimiento() { return fechaVencimiento; }
+    public void setFechaVencimiento(String fechaVencimiento) { this.fechaVencimiento = fechaVencimiento; }
 
     @Override
     public String toString() {
