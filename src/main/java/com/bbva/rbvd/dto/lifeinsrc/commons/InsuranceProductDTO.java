@@ -13,6 +13,7 @@ public class InsuranceProductDTO extends CommonFieldsDTO {
     public String toString() {
         final StringBuilder sb = new StringBuilder("InsuranceProductDTO{");
         sb.append("id=").append(this.getId());
+        sb.append(", name='").append(this.getName()).append('\'');
         sb.append(", plans=").append(plans);
         sb.append('}');
         return sb.toString();

@@ -26,15 +26,8 @@
       }
     ]
   },
-  "insuredAmount": {
-    "amount": 180.00,
-    "currency": "PEN"
-  },
   "holder": {
     "id": "37282913",
-    "firstName": "Fulano",
-    "lastName": "Sultano",
-    "fullName": "Fulano Sultano",
     "identityDocument": {
       "documentType": {
         "id": "DNI"
@@ -43,5 +36,11 @@
     }
   },
   "isDataTreatment": true,
-  "externalSimulationId": "256c3b09-eca6-4430-a74b-e99ff907dff6"
+  "externalSimulationId": "256c3b09-eca6-4430-a74b-e99ff907dff6",
+  "bank": {
+    "id": "0011",
+    "branch": {
+      "id": "0814"
+    }
+  }
 }
