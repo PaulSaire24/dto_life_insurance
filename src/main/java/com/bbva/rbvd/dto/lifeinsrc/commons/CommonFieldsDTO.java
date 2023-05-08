@@ -17,7 +17,7 @@ public class CommonFieldsDTO extends AbstractDTO {
     private String saleChannelId;
     private String creationUser;
     private String userAudit;
-    private Boolean isAvailable;
+    private boolean isAvailable;
 
     public String getId() { return id; }
     public void setId(String id) { this.id = id; }
