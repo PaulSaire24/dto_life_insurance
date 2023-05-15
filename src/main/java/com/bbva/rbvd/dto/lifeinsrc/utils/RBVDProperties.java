@@ -106,4 +106,5 @@ public enum RBVDProperties {
     public String getValue() {
         return this.value;
     }
+    
 }
