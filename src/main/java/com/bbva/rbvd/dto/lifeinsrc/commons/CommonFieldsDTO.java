@@ -18,6 +18,8 @@ public class CommonFieldsDTO extends AbstractDTO {
     private String creationUser;
     private String userAudit;
     private boolean isAvailable;
+    private Double bankingFactor;
+    private TierDTO tier;
 
     public String getId() { return id; }
     public void setId(String id) { this.id = id; }
@@ -53,5 +55,10 @@ public class CommonFieldsDTO extends AbstractDTO {
     public void setUserAudit(String userAudit) { this.userAudit = userAudit; }
     public Boolean getIsAvailable() { return this.isAvailable; }
     public void setIsAvailable(Boolean isAvailable) { this.isAvailable = isAvailable; }
-
+    public Double getBankingFactor() { return bankingFactor; }
+    public void setBankingFactor(Double bankingFactor) { this.bankingFactor = bankingFactor; }
+    public TierDTO getTier() {
+        return this.tier;
+    }
+    public void setTier(TierDTO tier) { this.tier = tier; }
 }
