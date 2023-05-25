@@ -1,65 +1,279 @@
 {
 
-    "product": {
-      "name": "ProductName",
-      "id": "123",
-      "plans": [
-        {
-          "id": "123",
-          "name": "PLAN BASICO",
-          "isRecommended": true,
-          "isAvailable": true,
-          "totalInstallment": {
-            "amount": 212.7,
-            "currency": "USD",
+  "product": {
+    "plans": [
+      {
+        "isAvailable": true,
+        "installmentPlans": [
+          {
             "period": {
-              "name": "Mensual",
+              "name": "MENSUAL",
               "id": "MONTHLY"
+            },
+            "paymentsTotalNumber": 12,
+            "paymentAmount": {
+              "amount": 15.0,
+              "currency": "PEN"
             }
           },
-          "installmentPlans": [
-            {
-              "paymentsTotalNumber": 12,
-              "paymentAmount": {
-                "amount": 212.7,
-                "currency": "USD"
-              },
-              "period": {
-                "name": "Mensual",
-                "id": "MONTHLY"
-              }
+          {
+            "period": {
+              "name": "ANUAL",
+              "id": "ANNUAL"
+            },
+            "paymentsTotalNumber": 1,
+            "paymentAmount": {
+              "amount": 150.0,
+              "currency": "PEN"
             }
-          ],
-          "coverages": [
-            {
-              "coverageType": {
-                "name": "Por robo total segun el valor referencial",
-                "id": "1"
-              },
-              "name": "Por robo total segun el valor referencial",
-              "id": "1",
-              "description": "description",
-              "isSelected": true
-            }
-          ]
+          }
+        ],
+        "name": "Opción 1",
+        "isRecommended": false,
+        "id": "01",
+        "coverages": [
+          {
+            "coverageType": {
+              "name": "OBLIGATORIA",
+              "id": "MANDATORY"
+            },
+            "unit": {
+              "unitType": "AMOUNT",
+              "amount": 20000.0,
+              "currency": "PEN"
+            },
+            "name": "Invalidez Total",
+            "isSelected": false,
+            "description": "La COMPAÑÍA pagará la suma asegurada indicada en el Certificado de Seguro , en caso de Invalidez Total y Permanente del ASEGURADO que surja como consecuencia de un accidente producido dentro de la vigencia de la Póliza y se manifieste dentro de los 2 años siguientes al accidente o en caso surja como consecuencia de una enfermedad (periodo de carencia de 180 días). <br>Se considera Invalidez Total y Permanente del ASEGURADO, a la pérdida o disminución de su capacidad física o intelectual definitiva e irreversible, que le produzca un menoscabo igual o superior al 66.6%, de su capacidad total.",
+            "id": "10923"
+          },
+          {
+            "coverageType": {
+              "name": "OBLIGATORIA",
+              "id": "MANDATORY"
+            },
+            "unit": {
+              "unitType": "AMOUNT",
+              "amount": 20000.0,
+              "currency": "PEN"
+            },
+            "name": "Fallecimiento",
+            "isSelected": true,
+            "description": "Si se produjera tu fallecimiento del Asegurado por enfermedad o accidente, la COMPAÑÍA indemnizará al BENEFICIARIO, de acuerdo a las condiciones, coberturas y límites contratados.",
+            "id": "10920"
+          },
+          {
+            "coverageType": {
+              "name": "OBLIGATORIA",
+              "id": "MANDATORY"
+            },
+            "unit": {
+              "unitType": "AMOUNT",
+              "amount": 20000.0,
+              "currency": "PEN"
+            },
+            "name": "Muerte Accidental",
+            "isSelected": false,
+            "description": "Consiste en brindar una indemnización accesoria a la cobertura principal de fallecimiento, en caso se produzca el fallecimiento del Asegurado a causa de un accidente. <br>Este fallecimiento se deberá haber producido dentro de los ciento ochenta (180) días calendarios posteriores a la fecha en que se produjo el accidente. <br>Se define como accidente a todo suceso imprevisto, involuntario, repentino y fortuito, causado por medios externos y de un modo violento que afecte el organismo del asegurado.",
+            "id": "10921"
+          }
+        ],
+        "totalInstallment": {
+          "amount": 180.0,
+          "period": {
+            "name": "ANUAL",
+            "id": "ANNUAL"
+          },
+          "currency": "PEN"
         }
-      ]
-    },
-    "insuredAmount": {
-      "amount": 212.7,
-      "currency": "USD"
-    },
-    "holder": {
-      "id": "DNI",
-      "firstName":"ABC",
-      "lastName":"DEF",
-      "fullName":"GHI",
-      "identityDocument": {
-        "documentType": {
-          "id": "DNI"
-        },
-        "documentNumber": "04040005"
+      },
+      {
+        "isAvailable": true,
+        "installmentPlans": [
+          {
+            "period": {
+              "name": "MENSUAL",
+              "id": "MONTHLY"
+            },
+            "paymentsTotalNumber": 12,
+            "paymentAmount": {
+              "amount": 28.0,
+              "currency": "PEN"
+            }
+          },
+          {
+            "period": {
+              "name": "ANUAL",
+              "id": "ANNUAL"
+            },
+            "paymentsTotalNumber": 1,
+            "paymentAmount": {
+              "amount": 280.0,
+              "currency": "PEN"
+            }
+          }
+        ],
+        "name": "Opción 2",
+        "isRecommended": false,
+        "id": "02",
+        "coverages": [
+          {
+            "coverageType": {
+              "name": "OBLIGATORIA",
+              "id": "MANDATORY"
+            },
+            "unit": {
+              "unitType": "AMOUNT",
+              "amount": 40000.0,
+              "currency": "PEN"
+            },
+            "name": "Invalidez Total",
+            "isSelected": false,
+            "description": "La COMPAÑÍA pagará la suma asegurada indicada en el Certificado de Seguro , en caso de Invalidez Total y Permanente del ASEGURADO que surja como consecuencia de un accidente producido dentro de la vigencia de la Póliza y se manifieste dentro de los 2 años siguientes al accidente o en caso surja como consecuencia de una enfermedad (periodo de carencia de 180 días). <br>Se considera Invalidez Total y Permanente del ASEGURADO, a la pérdida o disminución de su capacidad física o intelectual definitiva e irreversible, que le produzca un menoscabo igual o superior al 66.6%, de su capacidad total.",
+            "id": "10923"
+          },
+          {
+            "coverageType": {
+              "name": "OBLIGATORIA",
+              "id": "MANDATORY"
+            },
+            "unit": {
+              "unitType": "AMOUNT",
+              "amount": 40000.0,
+              "currency": "PEN"
+            },
+            "name": "Fallecimiento",
+            "isSelected": true,
+            "description": "Si se produjera tu fallecimiento del Asegurado por enfermedad o accidente, la COMPAÑÍA indemnizará al BENEFICIARIO, de acuerdo a las condiciones, coberturas y límites contratados.",
+            "id": "10920"
+          },
+          {
+            "coverageType": {
+              "name": "OBLIGATORIA",
+              "id": "MANDATORY"
+            },
+            "unit": {
+              "unitType": "AMOUNT",
+              "amount": 40000.0,
+              "currency": "PEN"
+            },
+            "name": "Muerte Accidental",
+            "isSelected": false,
+            "description": "Consiste en brindar una indemnización accesoria a la cobertura principal de fallecimiento, en caso se produzca el fallecimiento del Asegurado a causa de un accidente. <br>Este fallecimiento se deberá haber producido dentro de los ciento ochenta (180) días calendarios posteriores a la fecha en que se produjo el accidente. <br>Se define como accidente a todo suceso imprevisto, involuntario, repentino y fortuito, causado por medios externos y de un modo violento que afecte el organismo del asegurado.",
+            "id": "10921"
+          }
+        ],
+        "totalInstallment": {
+          "amount": 336.0,
+          "period": {
+            "name": "ANUAL",
+            "id": "ANNUAL"
+          },
+          "currency": "PEN"
+        }
+      },
+      {
+        "isAvailable": true,
+        "installmentPlans": [
+          {
+            "period": {
+              "name": "MENSUAL",
+              "id": "MONTHLY"
+            },
+            "paymentsTotalNumber": 12,
+            "paymentAmount": {
+              "amount": 50.0,
+              "currency": "PEN"
+            }
+          },
+          {
+            "period": {
+              "name": "ANUAL",
+              "id": "ANNUAL"
+            },
+            "paymentsTotalNumber": 1,
+            "paymentAmount": {
+              "amount": 500.0,
+              "currency": "PEN"
+            }
+          }
+        ],
+        "name": "Opción 3",
+        "isRecommended": true,
+        "id": "03",
+        "coverages": [
+          {
+            "coverageType": {
+              "name": "OBLIGATORIA",
+              "id": "MANDATORY"
+            },
+            "unit": {
+              "unitType": "AMOUNT",
+              "amount": 80000.0,
+              "currency": "PEN"
+            },
+            "name": "Invalidez Total",
+            "isSelected": false,
+            "description": "La COMPAÑÍA pagará la suma asegurada indicada en el Certificado de Seguro , en caso de Invalidez Total y Permanente del ASEGURADO que surja como consecuencia de un accidente producido dentro de la vigencia de la Póliza y se manifieste dentro de los 2 años siguientes al accidente o en caso surja como consecuencia de una enfermedad (periodo de carencia de 180 días). <br>Se considera Invalidez Total y Permanente del ASEGURADO, a la pérdida o disminución de su capacidad física o intelectual definitiva e irreversible, que le produzca un menoscabo igual o superior al 66.6%, de su capacidad total.",
+            "id": "10923"
+          },
+          {
+            "coverageType": {
+              "name": "OBLIGATORIA",
+              "id": "MANDATORY"
+            },
+            "unit": {
+              "unitType": "AMOUNT",
+              "amount": 80000.0,
+              "currency": "PEN"
+            },
+            "name": "Fallecimiento",
+            "isSelected": true,
+            "description": "Si se produjera tu fallecimiento del Asegurado por enfermedad o accidente, la COMPAÑÍA indemnizará al BENEFICIARIO, de acuerdo a las condiciones, coberturas y límites contratados.",
+            "id": "10920"
+          },
+          {
+            "coverageType": {
+              "name": "OBLIGATORIA",
+              "id": "MANDATORY"
+            },
+            "unit": {
+              "unitType": "AMOUNT",
+              "amount": 80000.0,
+              "currency": "PEN"
+            },
+            "name": "Muerte Accidental",
+            "isSelected": false,
+            "description": "Consiste en brindar una indemnización accesoria a la cobertura principal de fallecimiento, en caso se produzca el fallecimiento del Asegurado a causa de un accidente. <br>Este fallecimiento se deberá haber producido dentro de los ciento ochenta (180) días calendarios posteriores a la fecha en que se produjo el accidente. <br>Se define como accidente a todo suceso imprevisto, involuntario, repentino y fortuito, causado por medios externos y de un modo violento que afecte el organismo del asegurado.",
+            "id": "10921"
+          }
+        ],
+        "totalInstallment": {
+          "amount": 600.0,
+          "period": {
+            "name": "ANUAL",
+            "id": "ANNUAL"
+          },
+          "currency": "PEN"
+        }
       }
+    ],
+    "name": "EASYYES",
+    "id": "840"
+  },
+  "externalSimulationId": "a44e7acd-1c3f-436f-b44f-45ff41da3d79",
+  "isDataTreatment": false,
+  "holder": {
+    "firstName": "",
+    "lastName": "",
+    "identityDocument": {
+      "documentType": {
+        "id": "DNI"
+      },
+      "documentNumber": "04040005"
     },
-    "externalSimulationId": "127d8063-d275-4900-afb3-de3cd846344f"
+    "fullName": "",
+    "id": "90008603"
+  }
+
 }
