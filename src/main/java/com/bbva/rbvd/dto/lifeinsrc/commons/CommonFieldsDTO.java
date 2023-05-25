@@ -20,6 +20,7 @@ public class CommonFieldsDTO extends AbstractDTO {
     private boolean isAvailable;
     private Double bankingFactor;
     private TierDTO tier;
+    private String aap;
 
     public String getId() { return id; }
     public void setId(String id) { this.id = id; }
@@ -61,4 +62,9 @@ public class CommonFieldsDTO extends AbstractDTO {
         return this.tier;
     }
     public void setTier(TierDTO tier) { this.tier = tier; }
+    public String getAap() {
+        return this.aap;
+    }
+    public void setAap(String aap) { this.aap = aap; }
+
 }
