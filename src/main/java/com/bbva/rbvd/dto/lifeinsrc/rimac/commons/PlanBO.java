@@ -9,6 +9,10 @@ public class PlanBO extends CommonFieldsBO {
     private List<FinanciamientoBO> financiamientos;
     private List<CoberturaBO> coberturas;
     private List<DatoParticularBO> datosParticulares;
+    
+    private Double cumulo;
+    
+    
 
     public Long getPlan() { return plan; }
     public void setPlan(Long plan) { this.plan = plan; }
@@ -20,5 +24,17 @@ public class PlanBO extends CommonFieldsBO {
     public void setCoberturas(List<CoberturaBO> coberturas) { this.coberturas = coberturas; }
     public List<DatoParticularBO> getDatosParticulares() {return datosParticulares;}
     public void setDatosParticulares(List<DatoParticularBO> datosParticulares) {this.datosParticulares = datosParticulares;}
+    
+    
+    
+	@Override
+	public String toString() {
+		return "PlanBO [plan=" + plan + ", descripcionPlan=" + descripcionPlan + ", financiamientos=" + financiamientos
+				+ ", coberturas=" + coberturas + ", datosParticulares=" + datosParticulares + ", cumulo=" + cumulo
+				+ "]";
+	}
+    
+    
+    
 
 }

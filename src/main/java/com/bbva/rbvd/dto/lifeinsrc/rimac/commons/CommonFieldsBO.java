@@ -26,5 +26,16 @@ public class CommonFieldsBO {
     public void setPrimaBruta(BigDecimal primaBruta) { this.primaBruta = primaBruta; }
     public String getCotizacion() { return cotizacion; }
     public void setCotizacion(String cotizacion) { this.cotizacion = cotizacion; }
+    
+    
+	@Override
+	public String toString() {
+		return "CommonFieldsBO [producto=" + producto + ", moneda=" + moneda + ", tipoDocumento=" + tipoDocumento
+				+ ", numeroDocumento=" + numeroDocumento + ", primaNeta=" + primaNeta + ", primaBruta=" + primaBruta
+				+ ", cotizacion=" + cotizacion + "]";
+	}
+    
+    
+    
 
 }

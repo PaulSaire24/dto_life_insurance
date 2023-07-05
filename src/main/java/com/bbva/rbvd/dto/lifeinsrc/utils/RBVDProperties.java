@@ -4,6 +4,10 @@ public enum RBVDProperties {
 
     SIMULATION_LIFE_URI("simulation.rimac.life.uri"),
     SIMULATION_LIFE_RIMAC("simulationlife.rimac"),
+    
+    SIMULATION_UPDATE_LIFE_URI("simulationlifeupdate.rimac.uri"),
+    SIMULATION_UPDATE_LIFE_RIMAC("simulationlifeupdate.rimac"),
+    
 
     QUOTATION_EASYES_RIMAC_URI("uri.easyes.quotation"),
     QUOTATION_EASYES_RIMAC("easyesquotation"),
