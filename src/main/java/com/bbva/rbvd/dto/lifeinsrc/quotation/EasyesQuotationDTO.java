@@ -6,6 +6,7 @@ import com.bbva.rbvd.dto.lifeinsrc.commons.InsuranceProductDTO;
 import com.bbva.rbvd.dto.lifeinsrc.commons.RefundsDTO;
 import com.bbva.rbvd.dto.lifeinsrc.commons.TermDTO;
 
+
 import java.util.List;
 
 public class EasyesQuotationDTO extends CommonFieldsDTO {
@@ -53,5 +54,4 @@ public class EasyesQuotationDTO extends CommonFieldsDTO {
         sb.append('}');
         return sb.toString();
     }
-
 }
