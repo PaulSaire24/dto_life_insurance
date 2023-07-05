@@ -1,6 +1,7 @@
 package com.bbva.rbvd.dto.lifeinsrc.rimac.commons;
 
 import java.math.BigDecimal;
+import java.util.Date;
 
 public class CoberturaBO extends CommonFieldsBO {
 
@@ -13,8 +14,53 @@ public class CoberturaBO extends CommonFieldsBO {
     private String detalleCobertura;
     private String porcentajeSeleccionado;
     private String condicion;
-
-    public Long getCobertura() { return cobertura; }
+    
+    private Long codigoCobertura;
+    private String indSeleccionar;
+    private Date fechaFin;
+    private BigDecimal sumaAseguradaMinima;
+    private BigDecimal SumaAseguradaMaxima;
+    
+    
+    
+    
+   
+    
+    public BigDecimal getSumaAseguradaMinima() {
+		return sumaAseguradaMinima;
+	}
+	public void setSumaAseguradaMinima(BigDecimal sumaAseguradaMinima) {
+		this.sumaAseguradaMinima = sumaAseguradaMinima;
+	}
+	
+	public BigDecimal getSumaAseguradaMaxima() {
+		return SumaAseguradaMaxima;
+	}
+	public void setSumaAseguradaMaxima(BigDecimal sumaAseguradaMaxima) {
+		SumaAseguradaMaxima = sumaAseguradaMaxima;
+	}
+	
+	public Date getFechaFin() {
+		return fechaFin;
+	}
+	public void setFechaFin(Date fechaFin) {
+		this.fechaFin = fechaFin;
+	}
+	
+	public Long getCodigoCobertura() {
+		return codigoCobertura;
+	}
+	public void setCodigoCobertura(Long codigoCobertura) {
+		this.codigoCobertura = codigoCobertura;
+	}
+	public String getIndSeleccionar() {
+		return indSeleccionar;
+	}
+	public void setIndSeleccionar(String indSeleccionar) {
+		this.indSeleccionar = indSeleccionar;
+	}
+	
+	public Long getCobertura() { return cobertura; }
     public void setCobertura(Long cobertura) { this.cobertura = cobertura; }
     public String getDescripcionCobertura() { return descripcionCobertura; }
     public void setDescripcionCobertura(String descripcionCobertura) { this.descripcionCobertura = descripcionCobertura; }
@@ -32,5 +78,29 @@ public class CoberturaBO extends CommonFieldsBO {
     public void setPorcentajeSeleccionado(String porcentajeSeleccionado) {this.porcentajeSeleccionado = porcentajeSeleccionado;}
     public String getCondicion() {return condicion;}
     public void setCondicion(String condicion) {this.condicion = condicion;}
+    
+    
+    
+	@Override
+	public String toString() {
+		return "CoberturaBO [cobertura=" + cobertura + ", descripcionCobertura=" + descripcionCobertura
+				+ ", tipoCobertura=" + tipoCobertura + ", sumaAsegurada=" + sumaAsegurada + ", principal=" + principal
+				+ ", observacionCobertura=" + observacionCobertura + ", detalleCobertura=" + detalleCobertura
+				+ ", porcentajeSeleccionado=" + porcentajeSeleccionado + ", condicion=" + condicion
+				+ ", codigoCobertura=" + codigoCobertura + ", indSeleccionar=" + indSeleccionar + ", fechaFin="
+				+ fechaFin + ", sumaAseguradaMinima=" + sumaAseguradaMinima + ", SumaAseguradaMaxima="
+				+ SumaAseguradaMaxima + "]";
+	}
+    
+    
+	
+    
+    
+	
+    
+    
+    
+    
+    
 
 }
