@@ -1,10 +1,6 @@
 package com.bbva.rbvd.dto.lifeinsrc.quotation;
 
-import com.bbva.rbvd.dto.lifeinsrc.commons.CommonFieldsDTO;
-import com.bbva.rbvd.dto.lifeinsrc.commons.HolderDTO;
-import com.bbva.rbvd.dto.lifeinsrc.commons.InsuranceProductDTO;
-import com.bbva.rbvd.dto.lifeinsrc.commons.RefundsDTO;
-import com.bbva.rbvd.dto.lifeinsrc.commons.TermDTO;
+import com.bbva.rbvd.dto.lifeinsrc.commons.*;
 
 import java.util.List;
 
@@ -53,4 +49,5 @@ public class EasyesQuotationDTO extends CommonFieldsDTO {
         sb.append('}');
         return sb.toString();
     }
+
 }
