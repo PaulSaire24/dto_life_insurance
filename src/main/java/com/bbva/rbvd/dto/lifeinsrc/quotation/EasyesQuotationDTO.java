@@ -53,4 +53,5 @@ public class EasyesQuotationDTO extends CommonFieldsDTO {
         sb.append('}');
         return sb.toString();
     }
+
 }
