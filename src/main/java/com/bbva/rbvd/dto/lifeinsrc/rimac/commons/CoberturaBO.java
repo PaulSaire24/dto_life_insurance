@@ -18,27 +18,9 @@ public class CoberturaBO extends CommonFieldsBO {
     private Long codigoCobertura;
     private String indSeleccionar;
     private Date fechaFin;
-    private BigDecimal sumaAseguradaMinima;
-    private BigDecimal SumaAseguradaMaxima;
-    
-    
-    
-    
-   
-    
-    public BigDecimal getSumaAseguradaMinima() {
-		return sumaAseguradaMinima;
-	}
-	public void setSumaAseguradaMinima(BigDecimal sumaAseguradaMinima) {
-		this.sumaAseguradaMinima = sumaAseguradaMinima;
-	}
-	
-	public BigDecimal getSumaAseguradaMaxima() {
-		return SumaAseguradaMaxima;
-	}
-	public void setSumaAseguradaMaxima(BigDecimal sumaAseguradaMaxima) {
-		SumaAseguradaMaxima = sumaAseguradaMaxima;
-	}
+	private Integer orden;
+
+
 	
 	public Date getFechaFin() {
 		return fechaFin;
@@ -78,29 +60,33 @@ public class CoberturaBO extends CommonFieldsBO {
     public void setPorcentajeSeleccionado(String porcentajeSeleccionado) {this.porcentajeSeleccionado = porcentajeSeleccionado;}
     public String getCondicion() {return condicion;}
     public void setCondicion(String condicion) {this.condicion = condicion;}
-    
-    
-    
+
+
+	public Integer getOrden() {
+		return orden;
+	}
+
+	public void setOrden(Integer orden) {
+		this.orden = orden;
+	}
+
 	@Override
 	public String toString() {
-		return "CoberturaBO [cobertura=" + cobertura + ", descripcionCobertura=" + descripcionCobertura
-				+ ", tipoCobertura=" + tipoCobertura + ", sumaAsegurada=" + sumaAsegurada + ", principal=" + principal
-				+ ", observacionCobertura=" + observacionCobertura + ", detalleCobertura=" + detalleCobertura
-				+ ", porcentajeSeleccionado=" + porcentajeSeleccionado + ", condicion=" + condicion
-				+ ", codigoCobertura=" + codigoCobertura + ", indSeleccionar=" + indSeleccionar + ", fechaFin="
-				+ fechaFin + ", sumaAseguradaMinima=" + sumaAseguradaMinima + ", SumaAseguradaMaxima="
-				+ SumaAseguradaMaxima + "]";
+		final StringBuilder sb = new StringBuilder("CoberturaBO{");
+		sb.append("cobertura=").append(cobertura);
+		sb.append(", descripcionCobertura='").append(descripcionCobertura).append('\'');
+		sb.append(", tipoCobertura='").append(tipoCobertura).append('\'');
+		sb.append(", sumaAsegurada=").append(sumaAsegurada);
+		sb.append(", principal='").append(principal).append('\'');
+		sb.append(", observacionCobertura='").append(observacionCobertura).append('\'');
+		sb.append(", detalleCobertura='").append(detalleCobertura).append('\'');
+		sb.append(", porcentajeSeleccionado='").append(porcentajeSeleccionado).append('\'');
+		sb.append(", condicion='").append(condicion).append('\'');
+		sb.append(", codigoCobertura=").append(codigoCobertura);
+		sb.append(", indSeleccionar='").append(indSeleccionar).append('\'');
+		sb.append(", fechaFin=").append(fechaFin);
+		sb.append(", orden=").append(orden);
+		sb.append('}');
+		return sb.toString();
 	}
-    
-    
-	
-    
-    
-	
-    
-    
-    
-    
-    
-
 }
