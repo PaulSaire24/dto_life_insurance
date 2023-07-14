@@ -4,13 +4,12 @@ import java.io.Serializable;
 
 public class TermDTO implements Serializable {
 	
-	public enum UNIT{YEARS};
+	public enum UNIT{YEARS}
 	
 	
 	private Integer number;
 	private UNIT unit;
-	
-	
+
 	
 	public Integer getNumber() {
 		return number;
@@ -28,11 +27,6 @@ public class TermDTO implements Serializable {
 	public String toString() {
 		return "TermDTO [number=" + number + "]";
 	};
-	
-	
 
-	
-
-	
 
 }
