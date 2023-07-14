@@ -20,9 +20,8 @@ public class LifeSimulationDTO extends CommonFieldsDTO {
     private List<RefundsDTO> listRefunds; 
     
     private TermDTO term;
-    
-    
-    
+	private InsuranceLimitsDTO insuranceLimits;
+
 
     public List<RefundsDTO> getListRefunds() {
 		return listRefunds;
@@ -52,13 +51,24 @@ public class LifeSimulationDTO extends CommonFieldsDTO {
 
     public void setHolder(HolderDTO holder) { this.holder = holder; }
 
-	@Override
-	public String toString() {
-		return "LifeSimulationDTO [product=" + product + ", insuredAmount=" + insuredAmount + ", holder=" + holder
-				+ ", listRefunds=" + listRefunds + ", term=" + term + "]";
+	public InsuranceLimitsDTO getInsuranceLimits() {
+		return insuranceLimits;
 	}
 
+	public void setInsuranceLimits(InsuranceLimitsDTO insuranceLimits) {
+		this.insuranceLimits = insuranceLimits;
+	}
 
-    
-
+	@Override
+	public String toString() {
+		final StringBuilder sb = new StringBuilder("LifeSimulationDTO{");
+		sb.append("product=").append(product);
+		sb.append(", insuredAmount=").append(insuredAmount);
+		sb.append(", holder=").append(holder);
+		sb.append(", listRefunds=").append(listRefunds);
+		sb.append(", term=").append(term);
+		sb.append(", insuranceLimits=").append(insuranceLimits);
+		sb.append('}');
+		return sb.toString();
+	}
 }

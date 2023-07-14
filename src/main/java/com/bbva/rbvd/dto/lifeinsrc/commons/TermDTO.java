@@ -1,16 +1,16 @@
 package com.bbva.rbvd.dto.lifeinsrc.commons;
 
+import com.bbva.apx.dto.AbstractDTO;
+
 import java.io.Serializable;
 
-public class TermDTO implements Serializable {
+public class TermDTO extends AbstractDTO {
 	
-	public enum UNIT{YEARS};
-	
-	
+	public enum UNIT{YEARS}
+
 	private Integer number;
 	private UNIT unit;
-	
-	
+
 	
 	public Integer getNumber() {
 		return number;
@@ -22,17 +22,13 @@ public class TermDTO implements Serializable {
 	public UNIT getUnit() {
 		return unit;
 	}
-	
-	
+
 	@Override
 	public String toString() {
-		return "TermDTO [number=" + number + "]";
-	};
-	
-	
-
-	
-
-	
-
+		final StringBuilder sb = new StringBuilder("TermDTO{");
+		sb.append("number=").append(number);
+		sb.append(", unit=").append(unit);
+		sb.append('}');
+		return sb.toString();
+	}
 }
