@@ -1,0 +1,31 @@
+{
+  "holder": {
+    "id": "97788993",
+    "identityDocument": {
+      "documentType": {
+        "id": "DNI"
+      },
+      "documentNumber": "76354296"
+    }
+  },
+  "isDataTreatment": false,
+  "product": {
+    "id": "841"
+  },
+  "insuredAmount": {
+    "amount": 5000,
+    "currency": "PEN"
+  },
+  "term": {
+    "number": 10,
+    "unit": "YEARS"
+  },
+  "refunds": [
+    {
+      "unit": {
+        "unitType": "PERCENTAGE",
+        "percentage": 0
+      }
+    }
+  ]
+}

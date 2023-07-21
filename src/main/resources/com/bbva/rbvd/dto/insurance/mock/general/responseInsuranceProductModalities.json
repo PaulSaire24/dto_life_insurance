@@ -1,0 +1,16 @@
+  [
+  {
+    "insuranceCompanyModalityId": "533726",
+    "insuranceModalityName": "Plan Sin Devolucion,",
+    "insuranceModalityType": "01",
+    "suggestedModalityIndType": "N",
+    "publicationOrderNumber": 1
+  },
+  {
+    "insuranceCompanyModalityId": "533741",
+    "insuranceModalityName": "Plan Con Devolucion,",
+    "insuranceModalityType": "02",
+    "suggestedModalityIndType": "N",
+    "publicationOrderNumber": 2
+  }
+]
