@@ -1,5 +1,7 @@
 package com.bbva.rbvd.dto.lifeinsrc.mock;
 
+import com.bbva.rbvd.dto.lifeinsrc.dao.InsuranceProductModalityDAO;
+import com.bbva.rbvd.dto.lifeinsrc.dao.ProductInformationDAO;
 import com.bbva.rbvd.dto.lifeinsrc.quotation.EasyesQuotationDTO;
 
 import com.bbva.rbvd.dto.lifeinsrc.rimac.quotation.EasyesQuotationBO;
@@ -8,6 +10,8 @@ import com.bbva.rbvd.dto.lifeinsrc.rimac.simulation.InsuranceLifeSimulationBO;
 import com.bbva.rbvd.dto.lifeinsrc.simulation.LifeSimulationDTO;
 
 import java.io.IOException;
+import java.util.Arrays;
+import java.util.List;
 
 public class MockData {
 
@@ -61,6 +65,34 @@ public class MockData {
                 Thread.currentThread().getContextClassLoader().getResourceAsStream(
                         "com/bbva/rbvd/dto/insurance/mock/quotation/easyesQuotationRequest.json"),
                 EasyesQuotationDTO.class);
+    }
+
+    public LifeSimulationDTO getRequestDynamicLife() throws IOException {
+        return this.objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/rbvd/dto/insurance/mock/simulation/simulationRequestDynamicLife.json"),
+                LifeSimulationDTO.class);
+    }
+
+    public LifeSimulationDTO getResponsetDynamicLife() throws IOException {
+        return this.objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/rbvd/dto/insurance/mock/simulation/simulationResponseDynamicLife.json"),
+                LifeSimulationDTO.class);
+    }
+
+    public List<InsuranceProductModalityDAO> getInsuranceProductModalitiesDAO() throws IOException {
+        return Arrays.asList(objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/rbvd/dto/insurance/mock/general/responseInsuranceProductModalities.json"),
+                InsuranceProductModalityDAO[].class));
+    }
+
+    public ProductInformationDAO getProductInformationDAO() throws IOException {
+        return this.objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/rbvd/dto/insurance/mock/general/responseProductInformation.json"),
+                ProductInformationDAO.class);
     }
 
 }

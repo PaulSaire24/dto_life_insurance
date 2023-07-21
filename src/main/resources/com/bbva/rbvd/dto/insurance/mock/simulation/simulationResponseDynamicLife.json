@@ -1,0 +1,204 @@
+{
+  "data": {
+    "product": {
+      "plans": [
+        {
+          "isAvailable": true,
+          "installmentPlans": [
+            {
+              "period": {
+                "name": "MENSUAL",
+                "id": "MONTHLY"
+              },
+              "paymentsTotalNumber": 12,
+              "paymentAmount": {
+                "amount": 15.0,
+                "currency": "PEN"
+              }
+            },
+            {
+              "period": {
+                "name": "ANUAL",
+                "id": "ANNUAL"
+              },
+              "paymentsTotalNumber": 1,
+              "paymentAmount": {
+                "amount": 150.0,
+                "currency": "PEN"
+              }
+            }
+          ],
+          "name": "Plan 1",
+          "isRecommended": false,
+          "id": "01",
+          "coverages": [
+            {
+              "coverageType": {
+                "name": "OBLIGATORIA",
+                "id": "MANDATORY"
+              },
+              "unit": {
+                "unitType": "AMOUNT",
+                "amount": 20000.0,
+                "currency": "PEN"
+              },
+              "name": "Fallecimiento",
+              "isSelected": true,
+              "id": "10920"
+            },
+            {
+              "coverageType": {
+                "name": "OBLIGATORIA",
+                "id": "MANDATORY"
+              },
+              "unit": {
+                "unitType": "AMOUNT",
+                "amount": 20000.0,
+                "currency": "PEN"
+              },
+              "name": "Muerte Accidental",
+              "isSelected": false,
+              "id": "10921"
+            },
+            {
+              "coverageType": {
+                "name": "OBLIGATORIA",
+                "id": "MANDATORY"
+              },
+              "unit": {
+                "unitType": "AMOUNT",
+                "amount": 20000.0,
+                "currency": "PEN"
+              },
+              "name": "Invalidez Total",
+              "isSelected": false,
+              "id": "10923"
+            }
+          ],
+          "totalInstallment": {
+            "amount": 180.0,
+            "period": {
+              "name": "ANUAL",
+              "id": "ANNUAL"
+            },
+            "currency": "PEN"
+          }
+        },
+        {
+          "isAvailable": true,
+          "installmentPlans": [
+            {
+              "period": {
+                "name": "MENSUAL",
+                "id": "MONTHLY"
+              },
+              "paymentsTotalNumber": 12,
+              "paymentAmount": {
+                "amount": 28.0,
+                "currency": "PEN"
+              }
+            },
+            {
+              "period": {
+                "name": "ANUAL",
+                "id": "ANNUAL"
+              },
+              "paymentsTotalNumber": 1,
+              "paymentAmount": {
+                "amount": 280.0,
+                "currency": "PEN"
+              }
+            }
+          ],
+          "name": "Plan 2",
+          "isRecommended": false,
+          "id": "02",
+          "coverages": [
+            {
+              "coverageType": {
+                "name": "OBLIGATORIA",
+                "id": "MANDATORY"
+              },
+              "unit": {
+                "unitType": "AMOUNT",
+                "amount": 40000.0,
+                "currency": "PEN"
+              },
+              "name": "Fallecimiento",
+              "isSelected": true,
+              "id": "10920"
+            },
+            {
+              "coverageType": {
+                "name": "OBLIGATORIA",
+                "id": "MANDATORY"
+              },
+              "unit": {
+                "unitType": "AMOUNT",
+                "amount": 40000.0,
+                "currency": "PEN"
+              },
+              "name": "Muerte Accidental",
+              "isSelected": false,
+              "id": "10921"
+            },
+            {
+              "coverageType": {
+                "name": "OBLIGATORIA",
+                "id": "MANDATORY"
+              },
+              "unit": {
+                "unitType": "AMOUNT",
+                "amount": 40000.0,
+                "currency": "PEN"
+              },
+              "name": "Invalidez Total",
+              "isSelected": false,
+              "id": "10923"
+            }
+          ],
+          "totalInstallment": {
+            "amount": 336.0,
+            "period": {
+              "name": "ANUAL",
+              "id": "ANNUAL"
+            },
+            "currency": "PEN"
+          }
+        }
+      ],
+      "name": "VIDADINAMICO",
+      "id": "841"
+    },
+    "externalSimulationId": "7d572b11-0268-4dfd-b40f-0df2f4h23013",
+    "isDataTreatment": false,
+    "holder": {
+      "firstName": "Peter",
+      "lastName": "Parker",
+      "identityDocument": {
+        "documentType": {
+          "id": "DNI"
+        },
+        "documentNumber": "76354296"
+      },
+      "fullName": "Peter Parker",
+      "id": "97788993"
+    },
+    "term": {
+      "number": "10",
+      "unit": "YEARS"
+    },
+    "insuredAmount": {
+      "amount": 5000.0,
+      "currency": "PEN"
+    },
+    "refunds": [
+      {
+        "unit": {
+          "unitType": "PERCENTAGE",
+          "percentage": 0.0
+        }
+      }
+    ]
+  }
+}
