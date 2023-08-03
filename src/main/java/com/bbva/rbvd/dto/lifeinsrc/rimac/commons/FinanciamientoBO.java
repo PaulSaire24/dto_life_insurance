@@ -15,6 +15,9 @@ public class FinanciamientoBO extends CommonFieldsBO {
     private BigDecimal montoNetoFraccionado;
     private BigDecimal montoPago;
     private List<CuotaFinanciamientoBO> cuotasFinanciamiento;
+    private Long idePlanFinanciamiento;
+    private Long numCuota;
+    private String periodo;
 
     public Long getFinanciamiento() { return financiamiento; }
     public void setFinanciamiento(Long financiamiento) { this.financiamiento = financiamiento; }
@@ -35,17 +38,45 @@ public class FinanciamientoBO extends CommonFieldsBO {
     public List<CuotaFinanciamientoBO> getCuotasFinanciamiento() { return cuotasFinanciamiento; }
     public void setCuotasFinanciamiento(List<CuotaFinanciamientoBO> cuotasFinanciamiento) { this.cuotasFinanciamiento = cuotasFinanciamiento; }
 
+    public Long getIdePlanFinanciamiento() {
+        return idePlanFinanciamiento;
+    }
+
+    public void setIdePlanFinanciamiento(Long idePlanFinanciamiento) {
+        this.idePlanFinanciamiento = idePlanFinanciamiento;
+    }
+
+    public Long getNumCuota() {
+        return numCuota;
+    }
+
+    public void setNumCuota(Long numCuota) {
+        this.numCuota = numCuota;
+    }
+
+    public String getPeriodo() {
+        return periodo;
+    }
+
+    public void setPeriodo(String periodo) {
+        this.periodo = periodo;
+    }
+
     @Override
     public String toString() {
         final StringBuilder sb = new StringBuilder("FinanciamientoBO{");
-        sb.append("financiamiento=").append(financiamiento).append('\'');
+        sb.append("financiamiento=").append(financiamiento);
         sb.append(", periodicidad='").append(periodicidad).append('\'');
-        sb.append(", numeroCuotas=").append(numeroCuotas).append('\'');
-        sb.append(", indicadorDescuentoPrima=").append(indicadorDescuentoPrima).append('\'');
-        sb.append(", montoNetoFraccionado=").append(montoNetoFraccionado).append('\'');
-        sb.append(", montoPago=").append(montoPago).append('\'');
+        sb.append(", numeroCuotas=").append(numeroCuotas);
         sb.append(", fechaInicio='").append(fechaInicio).append('\'');
+        sb.append(", fechaFin='").append(fechaFin).append('\'');
+        sb.append(", indicadorDescuentoPrima='").append(indicadorDescuentoPrima).append('\'');
+        sb.append(", montoNetoFraccionado=").append(montoNetoFraccionado);
+        sb.append(", montoPago=").append(montoPago);
         sb.append(", cuotasFinanciamiento=").append(cuotasFinanciamiento);
+        sb.append(", idePlanFinanciamiento=").append(idePlanFinanciamiento);
+        sb.append(", numCuota=").append(numCuota);
+        sb.append(", periodo='").append(periodo).append('\'');
         sb.append('}');
         return sb.toString();
     }
