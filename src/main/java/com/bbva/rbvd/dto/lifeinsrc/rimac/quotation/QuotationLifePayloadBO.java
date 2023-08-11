@@ -2,7 +2,6 @@ package com.bbva.rbvd.dto.lifeinsrc.rimac.quotation;
 
 import com.bbva.rbvd.dto.lifeinsrc.commons.CommonFieldsDTO;
 import com.bbva.rbvd.dto.lifeinsrc.rimac.commons.PlanBO;
-import com.bbva.rbvd.dto.lifeinsrc.rimac.quotation.QuotationDetailBO;
 
 import java.util.List;
 

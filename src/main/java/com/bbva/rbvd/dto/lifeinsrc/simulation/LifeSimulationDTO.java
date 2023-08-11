@@ -12,16 +12,11 @@ import com.bbva.rbvd.dto.lifeinsrc.commons.TermDTO;
 public class LifeSimulationDTO extends CommonFieldsDTO {
 
     private InsuranceProductDTO product;
-
     private InsuredAmountDTO insuredAmount;
-
     private HolderDTO holder;
-    
-    private List<RefundsDTO> listRefunds; 
-    
+    private List<RefundsDTO> listRefunds;
     private TermDTO term;
 	private InsuranceLimitsDTO insuranceLimits;
-
 
     public List<RefundsDTO> getListRefunds() {
 		return listRefunds;
