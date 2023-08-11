@@ -1,10 +1,16 @@
 package com.bbva.rbvd.dto.lifeinsrc.quotation;
 
-import com.bbva.rbvd.dto.lifeinsrc.commons.*;
+import com.bbva.rbvd.dto.lifeinsrc.commons.CommonFieldsDTO;
+import com.bbva.rbvd.dto.lifeinsrc.commons.InsuranceProductDTO;
+import com.bbva.rbvd.dto.lifeinsrc.commons.HolderDTO;
+import com.bbva.rbvd.dto.lifeinsrc.commons.RefundsDTO;
+import com.bbva.rbvd.dto.lifeinsrc.commons.TermDTO;
+import com.bbva.rbvd.dto.lifeinsrc.commons.InsuredAmountDTO;
 
 import java.util.List;
 
-public class QuotationLifeDTO extends CommonFieldsDTO{
+
+public class QuotationLifeDTO extends CommonFieldsDTO {
     private InsuranceProductDTO product;
     private HolderDTO holder;
     private BankDTO bank;
