@@ -1,6 +1,11 @@
 package com.bbva.rbvd.dto.lifeinsrc.rimac.quotation;
 
-public class QuotationLifeBO {
+import java.io.Serializable;
+
+public class QuotationLifeBO implements Serializable {
+    private static final long serialVersionUID = 1L;
+
+
     private QuotationLifePayloadBO payload;
 
     public QuotationLifePayloadBO getPayload() {return payload;}

@@ -1,10 +1,9 @@
 package com.bbva.rbvd.dto.lifeinsrc.rimac.commons;
 
-import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.Date;
 
-public class CoberturaBO extends CommonFieldsBO implements Serializable {
+public class CoberturaBO extends CommonFieldsBO {
 
     private Long cobertura;
     private String descripcionCobertura;
