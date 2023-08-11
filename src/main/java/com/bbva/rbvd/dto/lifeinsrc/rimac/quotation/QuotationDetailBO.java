@@ -3,9 +3,10 @@ package com.bbva.rbvd.dto.lifeinsrc.rimac.quotation;
 import com.bbva.rbvd.dto.lifeinsrc.rimac.commons.CommonFieldsBO;
 import com.bbva.rbvd.dto.lifeinsrc.rimac.commons.PlanBO;
 
+import java.io.Serializable;
 import java.util.List;
 
-public class QuotationDetailBO extends CommonFieldsBO {
+public class QuotationDetailBO extends CommonFieldsBO implements Serializable {
 
     private String fechaCreacion;
     private String fechaExpiracion;

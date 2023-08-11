@@ -1,9 +1,10 @@
 package com.bbva.rbvd.dto.lifeinsrc.rimac.commons;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.List;
 
-public class PlanBO extends CommonFieldsBO {
+public class PlanBO extends CommonFieldsBO implements Serializable {
 
     private Long plan;
     private String descripcionPlan;
