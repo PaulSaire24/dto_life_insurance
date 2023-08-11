@@ -3,7 +3,7 @@ package com.bbva.rbvd.dto.lifeinsrc.mock;
 import com.bbva.rbvd.dto.lifeinsrc.dao.InsuranceProductModalityDAO;
 import com.bbva.rbvd.dto.lifeinsrc.dao.ProductInformationDAO;
 import com.bbva.rbvd.dto.lifeinsrc.quotation.QuotationLifeDTO;
-import com.bbva.rbvd.dto.lifeinsrc.rimac.quotation.QuotationLifaBO;
+import com.bbva.rbvd.dto.lifeinsrc.rimac.quotation.QuotationLifeBO;
 import com.bbva.rbvd.dto.lifeinsrc.rimac.simulation.InsuranceLifeSimulationBO;
 import com.bbva.rbvd.dto.lifeinsrc.simulation.LifeSimulationDTO;
 
@@ -51,11 +51,11 @@ public class MockData {
                 InsuranceLifeSimulationBO.class);
     }
 
-    public QuotationLifaBO getInsuranceRimacQuotationResponse() throws IOException {
+    public QuotationLifeBO getInsuranceRimacQuotationResponse() throws IOException {
         return this.objectMapperHelper.readValue(
                 Thread.currentThread().getContextClassLoader().getResourceAsStream(
                         "com/bbva/rbvd/dto/insurance/mock/quotation/easyesRimacQuotationResponse.json"),
-                QuotationLifaBO.class);
+                QuotationLifeBO.class);
     }
 
     public QuotationLifeDTO getEasyesInsuranceQuotationRequest() throws IOException {

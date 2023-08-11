@@ -23,4 +23,14 @@ public class QuotationLifePayloadBO extends CommonFieldsDTO {
     public List<QuotationDetailBO> getDetalleCotizacion() {return detalleCotizacion;}
     public void setDetalleCotizacion(List<QuotationDetailBO> detalleCotizacion) {this.detalleCotizacion = detalleCotizacion;}
 
+    @Override
+    public String toString() {
+        return "QuotationLifePayloadBO{" +
+                "planes=" + planes +
+                ", codigoExterno='" + codigoExterno + '\'' +
+                ", status=" + status +
+                ", mensaje='" + mensaje + '\'' +
+                ", detalleCotizacion=" + detalleCotizacion +
+                '}';
+    }
 }
