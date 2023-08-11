@@ -2,13 +2,9 @@ package com.bbva.rbvd.dto.lifeinsrc.mock;
 
 import com.bbva.rbvd.dto.lifeinsrc.dao.InsuranceProductModalityDAO;
 import com.bbva.rbvd.dto.lifeinsrc.dao.ProductInformationDAO;
-import com.bbva.rbvd.dto.lifeinsrc.quotation.EasyesQuotationDTO;
-
 import com.bbva.rbvd.dto.lifeinsrc.quotation.QuotationLifeDTO;
-import com.bbva.rbvd.dto.lifeinsrc.rimac.quotation.EasyesQuotationBO;
 import com.bbva.rbvd.dto.lifeinsrc.rimac.quotation.QuotationLifaBO;
 import com.bbva.rbvd.dto.lifeinsrc.rimac.simulation.InsuranceLifeSimulationBO;
-
 import com.bbva.rbvd.dto.lifeinsrc.simulation.LifeSimulationDTO;
 
 import java.io.IOException;
