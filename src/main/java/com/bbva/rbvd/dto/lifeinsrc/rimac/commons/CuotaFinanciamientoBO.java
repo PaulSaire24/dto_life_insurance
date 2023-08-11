@@ -1,8 +1,9 @@
 package com.bbva.rbvd.dto.lifeinsrc.rimac.commons;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 
-public class CuotaFinanciamientoBO extends CommonFieldsBO {
+public class CuotaFinanciamientoBO extends CommonFieldsBO implements Serializable {
 
     private Long cuota;
     private BigDecimal monto;
