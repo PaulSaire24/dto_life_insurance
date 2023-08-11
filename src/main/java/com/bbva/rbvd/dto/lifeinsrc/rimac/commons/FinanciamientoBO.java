@@ -1,10 +1,11 @@
 package com.bbva.rbvd.dto.lifeinsrc.rimac.commons;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 
 import java.util.List;
 
-public class FinanciamientoBO extends CommonFieldsBO {
+public class FinanciamientoBO extends CommonFieldsBO implements Serializable {
 
     private Long financiamiento;
     private String periodicidad;
