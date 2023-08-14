@@ -1,6 +1,8 @@
 package com.bbva.rbvd.dto.lifeinsrc.rimac.commons;
 
-public class DatoParticularBO {
+import java.io.Serializable;
+
+public class DatoParticularBO implements Serializable {
 
     private String etiqueta;
     private String valor;

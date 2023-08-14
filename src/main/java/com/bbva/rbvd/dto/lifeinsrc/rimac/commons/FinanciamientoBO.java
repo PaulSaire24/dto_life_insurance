@@ -1,7 +1,6 @@
 package com.bbva.rbvd.dto.lifeinsrc.rimac.commons;
 
 import java.math.BigDecimal;
-
 import java.util.List;
 
 public class FinanciamientoBO extends CommonFieldsBO {
