@@ -3,10 +3,9 @@ package com.bbva.rbvd.dto.lifeinsrc.rimac.quotation;
 import com.bbva.rbvd.dto.lifeinsrc.rimac.commons.CommonFieldsBO;
 import com.bbva.rbvd.dto.lifeinsrc.rimac.commons.PlanBO;
 
-import java.io.Serializable;
 import java.util.List;
 
-public class QuotationLifePayloadBO extends CommonFieldsBO implements Serializable {
+public class QuotationLifePayloadBO extends CommonFieldsBO {
     private List<PlanBO> planes;
     private String codigoExterno;
     private Integer status;
