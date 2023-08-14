@@ -2,8 +2,6 @@ package com.bbva.rbvd.dto.lifeinsrc.commons;
 
 import com.bbva.apx.dto.AbstractDTO;
 
-import java.io.Serializable;
-
 public class TermDTO extends AbstractDTO {
 	
 	public enum UNIT{YEARS}

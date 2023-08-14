@@ -2,11 +2,9 @@ package com.bbva.rbvd.dto.lifeinsrc.mock;
 
 import com.bbva.rbvd.dto.lifeinsrc.dao.InsuranceProductModalityDAO;
 import com.bbva.rbvd.dto.lifeinsrc.dao.ProductInformationDAO;
-import com.bbva.rbvd.dto.lifeinsrc.quotation.EasyesQuotationDTO;
-
-import com.bbva.rbvd.dto.lifeinsrc.rimac.quotation.EasyesQuotationBO;
+import com.bbva.rbvd.dto.lifeinsrc.quotation.QuotationLifeDTO;
+import com.bbva.rbvd.dto.lifeinsrc.rimac.quotation.QuotationLifeBO;
 import com.bbva.rbvd.dto.lifeinsrc.rimac.simulation.InsuranceLifeSimulationBO;
-
 import com.bbva.rbvd.dto.lifeinsrc.simulation.LifeSimulationDTO;
 
 import java.io.IOException;
@@ -53,18 +51,18 @@ public class MockData {
                 InsuranceLifeSimulationBO.class);
     }
 
-    public EasyesQuotationBO getInsuranceRimacQuotationResponse() throws IOException {
+    public QuotationLifeBO getInsuranceRimacQuotationResponse() throws IOException {
         return this.objectMapperHelper.readValue(
                 Thread.currentThread().getContextClassLoader().getResourceAsStream(
                         "com/bbva/rbvd/dto/insurance/mock/quotation/easyesRimacQuotationResponse.json"),
-                EasyesQuotationBO.class);
+                QuotationLifeBO.class);
     }
 
-    public EasyesQuotationDTO getEasyesInsuranceQuotationRequest() throws IOException {
+    public QuotationLifeDTO getEasyesInsuranceQuotationRequest() throws IOException {
         return this.objectMapperHelper.readValue(
                 Thread.currentThread().getContextClassLoader().getResourceAsStream(
                         "com/bbva/rbvd/dto/insurance/mock/quotation/easyesQuotationRequest.json"),
-                EasyesQuotationDTO.class);
+                QuotationLifeDTO.class);
     }
 
     public LifeSimulationDTO getRequestDynamicLife() throws IOException {

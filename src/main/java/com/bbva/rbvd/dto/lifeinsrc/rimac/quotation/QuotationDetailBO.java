@@ -24,4 +24,14 @@ public class QuotationDetailBO extends CommonFieldsBO {
     public List<PlanBO> getPlanes() {return planes;}
     public void setPlanes(List<PlanBO> planes) {this.planes = planes;}
 
+    @Override
+    public String toString() {
+        return "QuotationDetailBO{" +
+                "fechaCreacion='" + fechaCreacion + '\'' +
+                ", fechaExpiracion='" + fechaExpiracion + '\'' +
+                ", indicadorSeleccionado='" + indicadorSeleccionado + '\'' +
+                ", nroDocumento='" + nroDocumento + '\'' +
+                ", planes=" + planes +
+                '}';
+    }
 }
