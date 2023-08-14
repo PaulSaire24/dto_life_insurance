@@ -1,11 +1,11 @@
 package com.bbva.rbvd.dto.lifeinsrc.rimac.quotation;
 
-import com.bbva.rbvd.dto.lifeinsrc.commons.CommonFieldsDTO;
+import com.bbva.rbvd.dto.lifeinsrc.rimac.commons.CommonFieldsBO;
 import com.bbva.rbvd.dto.lifeinsrc.rimac.commons.PlanBO;
 
 import java.util.List;
 
-public class QuotationLifePayloadBO extends CommonFieldsDTO {
+public class QuotationLifePayloadBO extends CommonFieldsBO {
     private List<PlanBO> planes;
     private String codigoExterno;
     private Integer status;
