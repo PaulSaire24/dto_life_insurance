@@ -1,0 +1,353 @@
+{
+  "payload": {
+    "cotizaciones": [
+      {
+        "cotizacion": "729160e6-41ff-402a-ba94-8beb78848efe",
+        "diasVigencia": "30",
+        "fechaFinVigencia": "2023-09-13",
+        "plan": {
+          "plan": 533726,
+          "descripcionPlan": "Plan dinámico sin devolución",
+          "moneda": "PEN",
+          "primaNeta": 1380.19,
+          "primaBruta": 1380.19,
+          "montoDevolucion": 0,
+          "sumaAseguradaMinima": 50000,
+          "sumaAseguradaMaxima": 269499,
+          "cumuloCoberturas": 160000,
+          "cumuloTotal": 160500,
+          "cumuloDisponible": 219499,
+          "financiamientos": [
+            {
+              "financiamiento": 23776,
+              "periodicidad": "Mensual",
+              "numeroCuotas": 12,
+              "indicadorDescuentoPrima": "N",
+              "montoNetoFraccionado": 1380.19,
+              "montoPago": 1380.19,
+              "fechaInicio": "2023-08-15",
+              "fechaFin": "2024-08-15",
+              "cuotasFinanciamiento": [
+                {
+                  "cuota": 1,
+                  "monto": 115.02,
+                  "fechaVencimiento": "2023-08-15",
+                  "moneda": "PEN"
+                },
+                {
+                  "cuota": 2,
+                  "monto": 115.02,
+                  "fechaVencimiento": "2023-09-15",
+                  "moneda": "PEN"
+                },
+                {
+                  "cuota": 3,
+                  "monto": 115.02,
+                  "fechaVencimiento": "2023-10-15",
+                  "moneda": "PEN"
+                },
+                {
+                  "cuota": 4,
+                  "monto": 115.02,
+                  "fechaVencimiento": "2023-11-15",
+                  "moneda": "PEN"
+                },
+                {
+                  "cuota": 5,
+                  "monto": 115.02,
+                  "fechaVencimiento": "2023-12-15",
+                  "moneda": "PEN"
+                },
+                {
+                  "cuota": 6,
+                  "monto": 115.02,
+                  "fechaVencimiento": "2024-01-15",
+                  "moneda": "PEN"
+                },
+                {
+                  "cuota": 7,
+                  "monto": 115.02,
+                  "fechaVencimiento": "2024-02-15",
+                  "moneda": "PEN"
+                },
+                {
+                  "cuota": 8,
+                  "monto": 115.02,
+                  "fechaVencimiento": "2024-03-15",
+                  "moneda": "PEN"
+                },
+                {
+                  "cuota": 9,
+                  "monto": 115.02,
+                  "fechaVencimiento": "2024-04-15",
+                  "moneda": "PEN"
+                },
+                {
+                  "cuota": 10,
+                  "monto": 115.02,
+                  "fechaVencimiento": "2024-05-15",
+                  "moneda": "PEN"
+                },
+                {
+                  "cuota": 11,
+                  "monto": 115.02,
+                  "fechaVencimiento": "2024-06-15",
+                  "moneda": "PEN"
+                },
+                {
+                  "cuota": 12,
+                  "monto": 114.97,
+                  "fechaVencimiento": "2024-07-15",
+                  "moneda": "PEN"
+                }
+              ]
+            },
+            {
+              "financiamiento": 23774,
+              "periodicidad": "Anual",
+              "numeroCuotas": 1,
+              "indicadorDescuentoPrima": "S",
+              "montoNetoFraccionado": 1380.19,
+              "montoPago": 1380.19,
+              "fechaInicio": "2023-08-15",
+              "fechaFin": "2024-08-15",
+              "cuotasFinanciamiento": [
+                {
+                  "cuota": 1,
+                  "monto": 1380.19,
+                  "fechaVencimiento": "2023-09-14",
+                  "moneda": "PEN"
+                }
+              ]
+            },
+            {
+              "financiamiento": 23775,
+              "periodicidad": "Semestral",
+              "numeroCuotas": 2,
+              "indicadorDescuentoPrima": "N",
+              "montoNetoFraccionado": 1380.19,
+              "montoPago": 1380.19,
+              "fechaInicio": "2023-08-15",
+              "fechaFin": "2024-08-15",
+              "cuotasFinanciamiento": [
+                {
+                  "cuota": 1,
+                  "monto": 690.1,
+                  "fechaVencimiento": "2023-08-15",
+                  "moneda": "PEN"
+                },
+                {
+                  "cuota": 2,
+                  "monto": 690.09,
+                  "fechaVencimiento": "2024-02-15",
+                  "moneda": "PEN"
+                }
+              ]
+            },
+            {
+              "financiamiento": 23777,
+              "periodicidad": "Trimestral",
+              "numeroCuotas": 4,
+              "indicadorDescuentoPrima": "N",
+              "montoNetoFraccionado": 1380.19,
+              "montoPago": 1380.19,
+              "fechaInicio": "2023-08-15",
+              "fechaFin": "2024-08-15",
+              "cuotasFinanciamiento": [
+                {
+                  "cuota": 1,
+                  "monto": 345.05,
+                  "fechaVencimiento": "2023-08-15",
+                  "moneda": "PEN"
+                },
+                {
+                  "cuota": 2,
+                  "monto": 345.05,
+                  "fechaVencimiento": "2023-11-15",
+                  "moneda": "PEN"
+                },
+                {
+                  "cuota": 3,
+                  "monto": 345.05,
+                  "fechaVencimiento": "2024-02-15",
+                  "moneda": "PEN"
+                },
+                {
+                  "cuota": 4,
+                  "monto": 345.04,
+                  "fechaVencimiento": "2024-05-15",
+                  "moneda": "PEN"
+                }
+              ]
+            }
+          ],
+          "coberturas": [
+            {
+              "cobertura": 10920,
+              "descripcionCobertura": "Fallecimiento",
+              "primaNeta": 97.64,
+              "primaBruta": 97.64,
+              "moneda": "PEN",
+              "sumaAsegurada": 90000,
+              "principal": "S",
+              "observacionCobertura": "Fallecimiento",
+              "condicion": "OBL",
+              "indSeleccionar": "S",
+              "sumaAseguradaMinima": 50000,
+              "sumaAseguradaMaxima": 269499
+            },
+            {
+              "cobertura": 10923,
+              "descripcionCobertura": "Invalidez Total y Permanente por Accidente o Enfermedad",
+              "primaNeta": 0,
+              "primaBruta": 0,
+              "moneda": "PEN",
+              "sumaAsegurada": 0,
+              "principal": "N",
+              "observacionCobertura": "Invalidez Total y Permanente por Accidente o Enfermedad",
+              "condicion": "OPC",
+              "indSeleccionar": "N",
+              "sumaAseguradaMinima": 50000,
+              "sumaAseguradaMaxima": 269499
+            },
+            {
+              "cobertura": 10924,
+              "descripcionCobertura": "Anticipo de Capital por Enfermedad Grave",
+              "primaNeta": 17.37,
+              "primaBruta": 17.37,
+              "moneda": "PEN",
+              "sumaAsegurada": 70000,
+              "principal": "N",
+              "observacionCobertura": "Enfermedades Graves",
+              "condicion": "INC",
+              "indSeleccionar": "S",
+              "sumaAseguradaMinima": 10000,
+              "sumaAseguradaMaxima": 80000
+            },
+            {
+              "cobertura": 13738,
+              "descripcionCobertura": "Renta Hospitalaria por Accidente.",
+              "primaNeta": 0,
+              "primaBruta": 0,
+              "moneda": "PEN",
+              "sumaAsegurada": 0,
+              "principal": "N",
+              "observacionCobertura": "Renta Hospitalaria por Accidente",
+              "condicion": "OPC",
+              "indSeleccionar": "N",
+              "sumaAseguradaMinima": 3000,
+              "sumaAseguradaMaxima": 3000
+            },
+            {
+              "cobertura": 13756,
+              "descripcionCobertura": "Indemnización Adicional por Renta Estudiantil",
+              "primaNeta": 0,
+              "primaBruta": 0,
+              "moneda": "PEN",
+              "sumaAsegurada": 0,
+              "principal": "N",
+              "observacionCobertura": "Beneficio Educacional",
+              "condicion": "OPC",
+              "indSeleccionar": "N",
+              "sumaAseguradaMinima": 60000,
+              "sumaAseguradaMaxima": 150000
+            },
+            {
+              "cobertura": 116065,
+              "descripcionCobertura": "Canasta Familiar",
+              "primaNeta": 0,
+              "primaBruta": 0,
+              "moneda": "PEN",
+              "sumaAsegurada": 0,
+              "principal": "N",
+              "observacionCobertura": "Renta Alimenticia por Fallecimiento",
+              "condicion": "OPC",
+              "indSeleccionar": "N",
+              "sumaAseguradaMinima": 18000,
+              "sumaAseguradaMaxima": 18000
+            },
+            {
+              "cobertura": 10922,
+              "descripcionCobertura": "Sepelio",
+              "primaNeta": 0,
+              "primaBruta": 0,
+              "moneda": "PEN",
+              "sumaAsegurada": 0,
+              "principal": "N",
+              "observacionCobertura": "Gastos de Sepelio",
+              "condicion": "OPC",
+              "indSeleccionar": "N",
+              "sumaAseguradaMinima": 10000,
+              "sumaAseguradaMaxima": 20000
+            }
+          ]
+        },
+        "indicadorBloqueo": 0
+      }
+    ],
+    "producto": "VIDADINAMICO",
+    "moneda": "PEN",
+    "planes": [
+      533726
+    ],
+    "datosParticulares": [
+      {
+        "etiqueta": "CUMULO_CLIENTE",
+        "codigo": "",
+        "valor": "500"
+      },
+      {
+        "etiqueta": "PLAZO DEL SEGURO",
+        "codigo": "",
+        "valor": "10"
+      },
+      {
+        "etiqueta": "Edad",
+        "codigo": "",
+        "valor": "35"
+      },
+      {
+        "etiqueta": "COVSumaAsegurada",
+        "codigo": "",
+        "valor": "90000"
+      },
+      {
+        "etiqueta": "Porcent_Devolucion",
+        "codigo": "",
+        "valor": "0"
+      },
+      {
+        "etiqueta": "Indicador_endosado",
+        "codigo": "",
+        "valor": "N"
+      },
+      {
+        "valor": "No",
+        "etiqueta": "APLICA_DESCUENTO_VC",
+        "codigo": ""
+      }
+    ],
+    "financiamiento": [
+      {
+        "idePlanFinanciamiento": 23774,
+        "numCuota": 1,
+        "periodo": "A"
+      },
+      {
+        "idePlanFinanciamiento": 23775,
+        "numCuota": 2,
+        "periodo": "S"
+      },
+      {
+        "idePlanFinanciamiento": 23776,
+        "numCuota": 12,
+        "periodo": "M"
+      },
+      {
+        "idePlanFinanciamiento": 23777,
+        "numCuota": 4,
+        "periodo": "T"
+      }
+    ]
+  }
+}
