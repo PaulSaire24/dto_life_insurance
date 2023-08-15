@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "producto": "VIDADINAMICO",
+    "moneda": "PEN",
+    "planes": [
+      533726
+    ],
+    "datosParticulares": [
+      {
+        "etiqueta": "CUMULO_CLIENTE",
+        "codigo": "",
+        "valor": "500"
+      },
+      {
+        "etiqueta": "PLAZO DEL SEGURO",
+        "codigo": "",
+        "valor": "10"
+      },
+      {
+        "etiqueta": "Edad",
+        "codigo": "",
+        "valor": "35"
+      },
+      {
+        "etiqueta": "COVSumaAsegurada",
+        "codigo": "",
+        "valor": "90000"
+      },
+      {
+        "etiqueta": "Porcent_Devolucion",
+        "codigo": "",
+        "valor": "0"
+      },
+      {
+        "etiqueta": "Indicador_endosado",
+        "codigo": "",
+        "valor": "N"
+      }
+    ],
+    "asegurado": {
+      "tipoDocumento": "L",
+      "numeroDocumento": "49242969"
+    },
+    "coberturas": [],
+    "periodosConDescuentoPrima": [
+      1
+    ]
+  }
+}
