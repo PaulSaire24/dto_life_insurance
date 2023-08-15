@@ -1,7 +1,10 @@
 package com.bbva.rbvd.dto.lifeinsrc.commons;
 
 import com.bbva.apx.dto.AbstractDTO;
+import com.bbva.rbvd.dto.lifeinsrc.simulation.ParticipantDTO;
+
 import java.math.BigDecimal;
+import java.util.List;
 
 public class CommonFieldsDTO extends AbstractDTO {
 
@@ -21,6 +24,7 @@ public class CommonFieldsDTO extends AbstractDTO {
     private Double bankingFactor;
     private TierDTO tier;
     private String aap;
+    private List<ParticipantDTO> participants;
 
     public String getId() { return id; }
     public void setId(String id) { this.id = id; }
@@ -67,4 +71,35 @@ public class CommonFieldsDTO extends AbstractDTO {
     }
     public void setAap(String aap) { this.aap = aap; }
 
+    public Boolean getSelected() {
+        return isSelected;
+    }
+
+    public void setSelected(Boolean selected) {
+        isSelected = selected;
+    }
+
+    public Boolean getDataTreatment() {
+        return isDataTreatment;
+    }
+
+    public void setDataTreatment(Boolean dataTreatment) {
+        isDataTreatment = dataTreatment;
+    }
+
+    public boolean isAvailable() {
+        return isAvailable;
+    }
+
+    public void setAvailable(boolean available) {
+        isAvailable = available;
+    }
+
+    public List<ParticipantDTO> getParticipants() {
+        return participants;
+    }
+
+    public void setParticipants(List<ParticipantDTO> participants) {
+        this.participants = participants;
+    }
 }

@@ -59,6 +59,7 @@ public class QuotationLifeDTO extends CommonFieldsDTO {
         sb.append(", externalSimulationId=").append(this.getExternalSimulationId());
         sb.append(", paymentMethod=").append(paymentMethod);
         sb.append(", insuredAmount=").append(insuredAmount);
+        sb.append(", participants=").append(getParticipants());
         sb.append('}');
         return sb.toString();
     }

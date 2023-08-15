@@ -95,4 +95,18 @@ public class MockData {
                 ProductInformationDAO.class);
     }
 
+    public InsuranceLifeSimulationBO getRequestRimacDynamicLife() throws IOException {
+        return this.objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/rbvd/dto/insurance/mock/simulation/simulationRequestRimacDynamic.json"),
+                InsuranceLifeSimulationBO.class);
+    }
+
+    public InsuranceLifeSimulationBO getResponseRimacDynamicLife() throws IOException {
+        return this.objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com/bbva/rbvd/dto/insurance/mock/simulation/simulationRequestRimacDynamic.json"),
+                InsuranceLifeSimulationBO.class);
+    }
+
 }
