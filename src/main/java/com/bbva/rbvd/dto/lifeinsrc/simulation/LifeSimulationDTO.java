@@ -17,6 +17,8 @@ public class LifeSimulationDTO extends CommonFieldsDTO {
     private List<RefundsDTO> listRefunds;
     private TermDTO term;
 	private InsuranceLimitsDTO insuranceLimits;
+	private boolean isEndorsed;
+
 
     public List<RefundsDTO> getListRefunds() {
 		return listRefunds;
@@ -54,6 +56,14 @@ public class LifeSimulationDTO extends CommonFieldsDTO {
 		this.insuranceLimits = insuranceLimits;
 	}
 
+	public boolean isEndorsed() {
+		return isEndorsed;
+	}
+
+	public void setEndorsed(boolean endorsed) {
+		isEndorsed = endorsed;
+	}
+
 	@Override
 	public String toString() {
 		final StringBuilder sb = new StringBuilder("LifeSimulationDTO{");
@@ -64,6 +74,7 @@ public class LifeSimulationDTO extends CommonFieldsDTO {
 		sb.append(", term=").append(term);
 		sb.append(", insuranceLimits=").append(insuranceLimits);
 		sb.append(", participants=").append(getParticipants());
+		sb.append(", isEndorsed=").append(isEndorsed);
 		sb.append('}');
 		return sb.toString();
 	}
