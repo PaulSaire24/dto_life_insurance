@@ -56,12 +56,12 @@ public class LifeSimulationDTO extends CommonFieldsDTO {
 		this.insuranceLimits = insuranceLimits;
 	}
 
-	public boolean isEndorsed() {
+	public boolean getIsEndorsed() {
 		return isEndorsed;
 	}
 
-	public void setEndorsed(boolean endorsed) {
-		isEndorsed = endorsed;
+	public void setIsEndorsed(boolean isEndorsed) {
+		this.isEndorsed = isEndorsed;
 	}
 
 	@Override
