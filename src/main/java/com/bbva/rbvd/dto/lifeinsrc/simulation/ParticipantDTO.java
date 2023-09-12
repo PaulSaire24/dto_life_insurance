@@ -12,6 +12,7 @@ public class ParticipantDTO extends HolderDTO {
     private String secondLastName;
     private ParticipantTypeDTO participantType;
     private List<ContractDetailsDTO> contactDetails;
+    private String birthDate;
 
     public String getMiddleName() {
         return middleName;
@@ -45,7 +46,13 @@ public class ParticipantDTO extends HolderDTO {
         this.contactDetails = contactDetails;
     }
 
+    public String getBirthDate() {
+        return birthDate;
+    }
 
+    public void setBirthDate(String birthDate) {
+        this.birthDate = birthDate;
+    }
     @Override
     public String toString() {
         final StringBuilder sb = new StringBuilder("ParticipantDTO{");
@@ -57,6 +64,7 @@ public class ParticipantDTO extends HolderDTO {
         sb.append(", participantType=").append(participantType);
         sb.append(", contactDetails=").append(contactDetails);
         sb.append(", identityDocument='").append(getIdentityDocument()).append('\'');
+        sb.append(", birthDate='").append(birthDate).append('\'');
         sb.append('}');
         return sb.toString();
     }
