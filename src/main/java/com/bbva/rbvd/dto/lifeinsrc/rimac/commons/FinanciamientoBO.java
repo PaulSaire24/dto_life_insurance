@@ -17,6 +17,7 @@ public class FinanciamientoBO extends CommonFieldsBO {
     private Long idePlanFinanciamiento;
     private Long numCuota;
     private String periodo;
+    private String frecuencia;
 
     public Long getFinanciamiento() { return financiamiento; }
     public void setFinanciamiento(Long financiamiento) { this.financiamiento = financiamiento; }
@@ -61,6 +62,14 @@ public class FinanciamientoBO extends CommonFieldsBO {
         this.periodo = periodo;
     }
 
+    public String getFrecuencia() {
+        return frecuencia;
+    }
+
+    public void setFrecuencia(String frecuencia) {
+        this.frecuencia = frecuencia;
+    }
+
     @Override
     public String toString() {
         final StringBuilder sb = new StringBuilder("FinanciamientoBO{");
@@ -76,6 +85,7 @@ public class FinanciamientoBO extends CommonFieldsBO {
         sb.append(", idePlanFinanciamiento=").append(idePlanFinanciamiento);
         sb.append(", numCuota=").append(numCuota);
         sb.append(", periodo='").append(periodo).append('\'');
+        sb.append(", frecuencia='").append(frecuencia).append('\'');
         sb.append('}');
         return sb.toString();
     }

@@ -15,12 +15,8 @@ public class SimulacionLifePayloadBO extends CommonFieldsBO {
     private List<FinanciamientoBO> financiamiento;
     private List<Integer> periodosConDescuentoPrima;
     private AseguradoBO asegurado;
-    
     private List<CoberturaBO> coberturas;
-    
-    
-    
-    
+
 
     public List<CoberturaBO> getCoberturas() {
 		return coberturas;
@@ -42,6 +38,8 @@ public class SimulacionLifePayloadBO extends CommonFieldsBO {
     public void setFinanciamiento(List<FinanciamientoBO> financiamiento) { this.financiamiento = financiamiento; }
     public AseguradoBO getAsegurado() { return asegurado; }
     public void setAsegurado(AseguradoBO asegurado) { this.asegurado = asegurado; }
+
+
     
     
 	@Override
