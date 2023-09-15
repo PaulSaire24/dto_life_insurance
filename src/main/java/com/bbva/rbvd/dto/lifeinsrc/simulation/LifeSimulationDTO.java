@@ -74,7 +74,7 @@ public class LifeSimulationDTO extends CommonFieldsDTO {
 		sb.append(", term=").append(term);
 		sb.append(", insuranceLimits=").append(insuranceLimits);
 		sb.append(", participants=").append(getParticipants());
-		sb.append(", isEndorsed=").append(isEndorsed);
+		sb.append(", isEndorseds=").append(isEndorsed);
 		sb.append('}');
 		return sb.toString();
 	}
