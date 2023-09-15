@@ -3,6 +3,7 @@ package com.bbva.rbvd.dto.lifeinsrc.simulation;
 
 import com.bbva.rbvd.dto.lifeinsrc.commons.HolderDTO;
 
+import java.util.Date;
 import java.util.List;
 
 
@@ -12,7 +13,7 @@ public class ParticipantDTO extends HolderDTO {
     private String secondLastName;
     private ParticipantTypeDTO participantType;
     private List<ContractDetailsDTO> contactDetails;
-    private String birthDate;
+    private Date birthDate;
 
     public String getMiddleName() {
         return middleName;
@@ -46,13 +47,14 @@ public class ParticipantDTO extends HolderDTO {
         this.contactDetails = contactDetails;
     }
 
-    public String getBirthDate() {
+    public Date getBirthDate() {
         return birthDate;
     }
 
-    public void setBirthDate(String birthDate) {
+    public void setBirthDate(Date birthDate) {
         this.birthDate = birthDate;
     }
+
     @Override
     public String toString() {
         final StringBuilder sb = new StringBuilder("ParticipantDTO{");
