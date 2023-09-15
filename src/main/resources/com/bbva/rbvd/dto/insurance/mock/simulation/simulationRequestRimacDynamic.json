@@ -1,5 +1,216 @@
 {
   "payload": {
+    "cotizaciones": [
+      {
+        "cotizacion": "4986b3c6-4a16-4a38-bf5d-9b69eb4c2ecb",
+        "diasVigencia": "30",
+        "fechaFinVigencia": "2023-10-14",
+        "plan": {
+          "plan": 533726,
+          "descripcionPlan": "Plan dinámico sin devolución",
+          "moneda": "PEN",
+          "primaNeta": 342,
+          "primaBruta": 342,
+          "montoDevolucion": 0,
+          "sumaAseguradaMinima": 30000,
+          "sumaAseguradaMaxima": 278000,
+          "financiamientos": [
+            {
+              "financiamiento": 23776,
+              "periodicidad": "Mensual",
+              "numeroCuotas": 12,
+              "indicadorDescuentoPrima": "N",
+              "montoNetoFraccionado": 410.4,
+              "montoPago": 410.4,
+              "fechaInicio": "2023-09-15",
+              "fechaFin": "2024-09-15",
+              "cuotasFinanciamiento": [
+                {
+                  "cuota": 1,
+                  "monto": 34.2,
+                  "fechaVencimiento": "2023-09-15",
+                  "moneda": "PEN"
+                },
+                {
+                  "cuota": 2,
+                  "monto": 34.2,
+                  "fechaVencimiento": "2023-10-15",
+                  "moneda": "PEN"
+                },
+                {
+                  "cuota": 3,
+                  "monto": 34.2,
+                  "fechaVencimiento": "2023-11-15",
+                  "moneda": "PEN"
+                },
+                {
+                  "cuota": 4,
+                  "monto": 34.2,
+                  "fechaVencimiento": "2023-12-15",
+                  "moneda": "PEN"
+                },
+                {
+                  "cuota": 5,
+                  "monto": 34.2,
+                  "fechaVencimiento": "2024-01-15",
+                  "moneda": "PEN"
+                },
+                {
+                  "cuota": 6,
+                  "monto": 34.2,
+                  "fechaVencimiento": "2024-02-15",
+                  "moneda": "PEN"
+                },
+                {
+                  "cuota": 7,
+                  "monto": 34.2,
+                  "fechaVencimiento": "2024-03-15",
+                  "moneda": "PEN"
+                },
+                {
+                  "cuota": 8,
+                  "monto": 34.2,
+                  "fechaVencimiento": "2024-04-15",
+                  "moneda": "PEN"
+                },
+                {
+                  "cuota": 9,
+                  "monto": 34.2,
+                  "fechaVencimiento": "2024-05-15",
+                  "moneda": "PEN"
+                },
+                {
+                  "cuota": 10,
+                  "monto": 34.2,
+                  "fechaVencimiento": "2024-06-15",
+                  "moneda": "PEN"
+                },
+                {
+                  "cuota": 11,
+                  "monto": 34.2,
+                  "fechaVencimiento": "2024-07-15",
+                  "moneda": "PEN"
+                },
+                {
+                  "cuota": 12,
+                  "monto": 34.2,
+                  "fechaVencimiento": "2024-08-15",
+                  "moneda": "PEN"
+                }
+              ]
+            }
+          ],
+          "coberturas": [
+            {
+              "cobertura": 10920,
+              "descripcionCobertura": "Fallecimiento",
+              "primaNeta": 28.5,
+              "primaBruta": 28.5,
+              "moneda": "PEN",
+              "sumaAsegurada": 50000,
+              "principal": "S",
+              "observacionCobertura": "Fallecimiento",
+              "condicion": "OBL",
+              "indSeleccionar": "S",
+              "sumaAseguradaMinima": 30000,
+              "sumaAseguradaMaxima": 278000,
+              "detalleCobertura": "Si se produjera el fallecimiento del Asegurado por enfermedad o accidente, la COMPAÑÍA indemnizará al BENEFICIARIO, de acuerdo a las condiciones, coberturas y límites contratados."
+            },
+            {
+              "cobertura": 10923,
+              "descripcionCobertura": "Invalidez Total y Permanente por Accidente o Enfermedad",
+              "primaNeta": 0,
+              "primaBruta": 0,
+              "moneda": "PEN",
+              "sumaAsegurada": 0,
+              "principal": "N",
+              "observacionCobertura": "Monto asegurable desde S/10,000",
+              "condicion": "OPC",
+              "indSeleccionar": "N",
+              "sumaAseguradaMinima": 30000,
+              "sumaAseguradaMaxima": 258000,
+              "detalleCobertura": "Se pagará la suma asegurada indicada en el Certificado cuando el Asegurado sufra un menoscabo igual o superior al 66.6% de su capacidad total a consecuencia de una enfermedad y/o accidente. En caso de accidente, siempre que se manifieste dentro de los 2 años siguientes de acontecido y en caso de enfermedad considerando un periodo de carencia de 180 días calendarios."
+            },
+            {
+              "cobertura": 10924,
+              "descripcionCobertura": "Anticipo de Capital por Enfermedad Grave",
+              "primaNeta": 0,
+              "primaBruta": 0,
+              "moneda": "PEN",
+              "sumaAsegurada": 0,
+              "principal": "N",
+              "observacionCobertura": "Monto asegurable máximo de S/ 80,000.",
+              "condicion": "OPC",
+              "indSeleccionar": "N",
+              "sumaAseguradaMinima": 10000,
+              "sumaAseguradaMaxima": 50000,
+              "detalleCobertura": "Se pagará la suma asegurada indicada en el Certificado cuando el Asegurado sufra un menoscabo igual o superior al 66.6% de su capacidad total a consecuencia de una enfermedad, en caso de enfermedad se considera un periodo de carencia de 180 días calendarios."
+            },
+            {
+              "cobertura": 13738,
+              "descripcionCobertura": "Renta Hospitalaria por Accidente.",
+              "primaNeta": 0,
+              "primaBruta": 0,
+              "moneda": "PEN",
+              "sumaAsegurada": 0,
+              "principal": "N",
+              "observacionCobertura": "S/ 100 diarios por 30 días.",
+              "condicion": "OPC",
+              "indSeleccionar": "N",
+              "sumaAseguradaMinima": 3000,
+              "sumaAseguradaMaxima": 3000,
+              "detalleCobertura": "Se pagará la suma asegurada indicada en el Certificado cuando el Asegurado sufra un menoscabo igual o superior al 66.6% para Renta Hospitalaria."
+            },
+            {
+              "cobertura": 13756,
+              "descripcionCobertura": "Indemnización Adicional por Renta Estudiantil",
+              "primaNeta": 0,
+              "primaBruta": 0,
+              "moneda": "PEN",
+              "sumaAsegurada": 0,
+              "principal": "N",
+              "observacionCobertura": "Hasta S/ 2,500 al mes durante 3 años.",
+              "condicion": "OPC",
+              "indSeleccionar": "N",
+              "sumaAseguradaMinima": 18000,
+              "sumaAseguradaMaxima": 60000,
+              "detalleCobertura": "Se pagará la suma asegurada indicada en el Certificado cuando el Asegurado sufra un menoscabo igual o superior al 66.6% para Beneficio Educacional."
+            },
+            {
+              "cobertura": 116065,
+              "descripcionCobertura": "Canasta Familiar",
+              "primaNeta": 0,
+              "primaBruta": 0,
+              "moneda": "PEN",
+              "sumaAsegurada": 0,
+              "principal": "N",
+              "observacionCobertura": "S/ 1,500 soles diarios por 12 años.",
+              "condicion": "OPC",
+              "indSeleccionar": "N",
+              "sumaAseguradaMinima": 1,
+              "sumaAseguradaMaxima": 18000,
+              "detalleCobertura": "Si se produjera el fallecimiento del Asegurado por enfermedad o accidente, la COMPAÑÍA indemnizará al BENEFICIARIO, por Renta Alimenticia por Fallecimiento."
+            },
+            {
+              "cobertura": 10922,
+              "descripcionCobertura": "Sepelio",
+              "primaNeta": 0,
+              "primaBruta": 0,
+              "moneda": "PEN",
+              "sumaAsegurada": 0,
+              "principal": "N",
+              "observacionCobertura": "Monto asegurable máximo de S/ 20,000.",
+              "condicion": "OPC",
+              "indSeleccionar": "N",
+              "sumaAseguradaMinima": 10000,
+              "sumaAseguradaMaxima": 18000,
+              "detalleCobertura": "Si se produjera el fallecimiento del Asegurado por enfermedad o accidente, la COMPAÑÍA indemnizará al BENEFICIARIO, por Gastos de Sepelio."
+            }
+          ]
+        },
+        "indicadorBloqueo": 0
+      }
+    ],
     "producto": "VIDADINAMICO",
     "moneda": "PEN",
     "planes": [
@@ -8,42 +219,45 @@
     "datosParticulares": [
       {
         "etiqueta": "CUMULO_CLIENTE",
-        "codigo": "",
-        "valor": "500"
-      },
-      {
-        "etiqueta": "PLAZO DEL SEGURO",
-        "codigo": "",
-        "valor": "10"
+        "valor": "2000",
+        "codigo": ""
       },
       {
         "etiqueta": "Edad",
-        "codigo": "",
-        "valor": "35"
+        "valor": "23",
+        "codigo": ""
       },
       {
         "etiqueta": "COVSumaAsegurada",
-        "codigo": "",
-        "valor": "90000"
+        "valor": "50000",
+        "codigo": ""
+      },
+      {
+        "etiqueta": "PLAZO DEL SEGURO",
+        "valor": "5",
+        "codigo": ""
       },
       {
         "etiqueta": "Porcent_Devolucion",
-        "codigo": "",
-        "valor": "0"
+        "valor": "0",
+        "codigo": ""
       },
       {
         "etiqueta": "Indicador_endosado",
-        "codigo": "",
-        "valor": "N"
+        "valor": "N",
+        "codigo": ""
+      },
+      {
+        "valor": "No",
+        "etiqueta": "APLICA_DESCUENTO_VC",
+        "codigo": ""
       }
     ],
-    "asegurado": {
-      "tipoDocumento": "L",
-      "numeroDocumento": "49242969"
-    },
-    "coberturas": [],
-    "periodosConDescuentoPrima": [
-      1
+    "financiamiento": [
+      {
+        "frecuencia": "M",
+        "numeroCuotas": 12
+      }
     ]
   }
 }
