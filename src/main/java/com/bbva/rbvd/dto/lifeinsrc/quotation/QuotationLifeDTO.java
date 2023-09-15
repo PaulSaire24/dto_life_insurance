@@ -17,6 +17,8 @@ public class QuotationLifeDTO extends CommonFieldsDTO {
     private TermDTO term;
     private PaymentMethodDTO paymentMethod;
     private InsuredAmountDTO insuredAmount;
+    private Boolean isEndorsed;
+
 
     public InsuranceProductDTO getProduct() {return product;}
     public void setProduct(InsuranceProductDTO product) {this.product = product;}
@@ -47,6 +49,14 @@ public class QuotationLifeDTO extends CommonFieldsDTO {
         this.insuredAmount = insuredAmount;
     }
 
+    public Boolean getEndorsed() {
+        return isEndorsed;
+    }
+
+    public void setEndorsed(Boolean endorsed) {
+        isEndorsed = endorsed;
+    }
+
     @Override
     public String toString() {
         final StringBuilder sb = new StringBuilder("EasyesQuotationDTO{");
@@ -60,6 +70,7 @@ public class QuotationLifeDTO extends CommonFieldsDTO {
         sb.append(", paymentMethod=").append(paymentMethod);
         sb.append(", insuredAmount=").append(insuredAmount);
         sb.append(", participants=").append(getParticipants());
+        sb.append(", isEndorsed=").append(isEndorsed);
         sb.append('}');
         return sb.toString();
     }

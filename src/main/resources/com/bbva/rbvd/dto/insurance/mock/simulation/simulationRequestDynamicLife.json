@@ -1,23 +1,25 @@
 {
   "holder": {
-    "id": "97788993",
+    "id": "97789734",
     "identityDocument": {
       "documentType": {
         "id": "DNI"
       },
-      "documentNumber": "76354296"
-    }
+      "documentNumber": "72929618"
+    },
+    "fullName": "Jose Artica",
+    "firstName": "Jose",
+    "lastName": "Artica"
   },
-  "isDataTreatment": false,
   "product": {
     "id": "841"
   },
   "insuredAmount": {
-    "amount": 5000,
+    "amount": 30001,
     "currency": "PEN"
   },
   "term": {
-    "number": 10,
+    "number": 5,
     "unit": "YEARS"
   },
   "refunds": [
@@ -27,5 +29,6 @@
         "percentage": 0
       }
     }
-  ]
+  ],
+  "isEndorsed":false
 }

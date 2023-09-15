@@ -17,7 +17,7 @@ public class LifeSimulationDTO extends CommonFieldsDTO {
     private List<RefundsDTO> listRefunds;
     private TermDTO term;
 	private InsuranceLimitsDTO insuranceLimits;
-	private boolean isEndorsed;
+	private Boolean isEndorsed;
 
 
 	public List<RefundsDTO> getListRefunds() {
