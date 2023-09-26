@@ -15,7 +15,8 @@ public enum RBVDErrors {
     QUOTATION_INSERTION_WAS_WRONG("RBVD01020029", false, "Hubo un problema en la insercion de la tabla de cotizacion"),
     QUOTATION_MOD_INSERTION_WAS_WRONG("RBVD01020030", false, "Hubo un problema en la insercion de la tabla de cotizacion-mod"),
     COULDNT_SELECT_MODALITY_RIMAC_ERROR("RBVD01020031", false, "El consumo del servicio de seleccionar plan (Rimac) no fue exitoso"),
-    QUOTATION_MOD_UPDATE_WAS_WRONG("RBVD01020041", false, "Hubo un problema en la actualizacion de la tabla de cotizacion-mod");
+    QUOTATION_MOD_UPDATE_WAS_WRONG("RBVD01020041", false, "Hubo un problema en la actualizacion de la tabla de cotizacion-mod"),
+    ERROR_CONNECTION_GETCUSTOMER_ASO("RBVD01020042", false, "Error al conectar con el servicio ASO - GETCUSTOMER");
 
     
     private final String adviceCode;
