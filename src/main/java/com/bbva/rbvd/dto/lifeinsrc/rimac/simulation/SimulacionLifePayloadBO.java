@@ -4,9 +4,11 @@ import com.bbva.rbvd.dto.lifeinsrc.rimac.commons.DatoParticularBO;
 import com.bbva.rbvd.dto.lifeinsrc.rimac.commons.FinanciamientoBO;
 import com.bbva.rbvd.dto.lifeinsrc.rimac.commons.CoberturaBO;
 import com.bbva.rbvd.dto.lifeinsrc.rimac.commons.CommonFieldsBO;
+import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 
 import java.util.List;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class SimulacionLifePayloadBO extends CommonFieldsBO {
 
     private List<CotizacionBO> cotizaciones;
