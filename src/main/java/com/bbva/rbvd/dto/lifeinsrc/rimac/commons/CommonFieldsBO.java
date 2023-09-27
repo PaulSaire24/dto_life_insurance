@@ -1,7 +1,9 @@
 package com.bbva.rbvd.dto.lifeinsrc.rimac.commons;
 
-import java.math.BigDecimal;
+import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 
+import java.math.BigDecimal;
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class CommonFieldsBO {
 
     private String producto;
@@ -10,6 +12,7 @@ public class CommonFieldsBO {
     private String numeroDocumento;
     private BigDecimal primaNeta;
     private BigDecimal primaBruta;
+    private BigDecimal precioNormal;
     private String cotizacion;
 
     private BigDecimal sumaAseguradaMinima;
@@ -46,19 +49,27 @@ public class CommonFieldsBO {
         this.sumaAseguradaMaxima = sumaAseguradaMaxima;
     }
 
+    public BigDecimal getPrecioNormal() {
+        return precioNormal;
+    }
+
+    public void setPrecioNormal(BigDecimal precioNormal) {
+        this.precioNormal = precioNormal;
+    }
+
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("CommonFieldsBO{");
-        sb.append("producto='").append(producto).append('\'');
-        sb.append(", moneda='").append(moneda).append('\'');
-        sb.append(", tipoDocumento='").append(tipoDocumento).append('\'');
-        sb.append(", numeroDocumento='").append(numeroDocumento).append('\'');
-        sb.append(", primaNeta=").append(primaNeta);
-        sb.append(", primaBruta=").append(primaBruta);
-        sb.append(", cotizacion='").append(cotizacion).append('\'');
-        sb.append(", sumaAseguradaMinima=").append(sumaAseguradaMinima);
-        sb.append(", sumaAseguradaMaxima=").append(sumaAseguradaMaxima);
-        sb.append('}');
-        return sb.toString();
+        return "CommonFieldsBO{" +
+                "producto='" + producto + '\'' +
+                ", moneda='" + moneda + '\'' +
+                ", tipoDocumento='" + tipoDocumento + '\'' +
+                ", numeroDocumento='" + numeroDocumento + '\'' +
+                ", primaNeta=" + primaNeta +
+                ", primaBruta=" + primaBruta +
+                ", precioNormal=" + precioNormal +
+                ", cotizacion='" + cotizacion + '\'' +
+                ", sumaAseguradaMinima=" + sumaAseguradaMinima +
+                ", sumaAseguradaMaxima=" + sumaAseguradaMaxima +
+                '}';
     }
 }

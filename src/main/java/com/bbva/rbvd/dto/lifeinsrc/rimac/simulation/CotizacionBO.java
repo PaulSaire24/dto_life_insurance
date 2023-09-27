@@ -2,7 +2,9 @@ package com.bbva.rbvd.dto.lifeinsrc.rimac.simulation;
 
 import com.bbva.rbvd.dto.lifeinsrc.rimac.commons.CommonFieldsBO;
 import com.bbva.rbvd.dto.lifeinsrc.rimac.commons.PlanBO;
+import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class CotizacionBO extends CommonFieldsBO {
 
     private String diasVigencia;

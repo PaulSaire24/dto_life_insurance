@@ -1,8 +1,11 @@
 package com.bbva.rbvd.dto.lifeinsrc.rimac.commons;
 
+import org.codehaus.jackson.annotate.JsonIgnoreProperties;
+
 import java.math.BigDecimal;
 import java.util.List;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class PlanBO extends CommonFieldsBO {
 
     private Long plan;
