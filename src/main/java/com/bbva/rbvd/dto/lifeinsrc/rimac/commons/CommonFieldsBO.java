@@ -14,9 +14,12 @@ public class CommonFieldsBO {
     private BigDecimal primaBruta;
     private BigDecimal precioNormal;
     private String cotizacion;
-
     private BigDecimal sumaAseguradaMinima;
     private BigDecimal sumaAseguradaMaxima;
+    private String nombres;
+    private String apePaterno;
+    private String apeMaterno;
+
 
     public String getProducto() {return producto;}
     public void setProducto(String producto) {this.producto = producto;}
@@ -57,6 +60,30 @@ public class CommonFieldsBO {
         this.precioNormal = precioNormal;
     }
 
+    public String getNombres() {
+        return nombres;
+    }
+
+    public void setNombres(String nombres) {
+        this.nombres = nombres;
+    }
+
+    public String getApePaterno() {
+        return apePaterno;
+    }
+
+    public void setApePaterno(String apePaterno) {
+        this.apePaterno = apePaterno;
+    }
+
+    public String getApeMaterno() {
+        return apeMaterno;
+    }
+
+    public void setApeMaterno(String apeMaterno) {
+        this.apeMaterno = apeMaterno;
+    }
+
     @Override
     public String toString() {
         return "CommonFieldsBO{" +
@@ -70,6 +97,9 @@ public class CommonFieldsBO {
                 ", cotizacion='" + cotizacion + '\'' +
                 ", sumaAseguradaMinima=" + sumaAseguradaMinima +
                 ", sumaAseguradaMaxima=" + sumaAseguradaMaxima +
+                ", nombres='" + nombres + '\'' +
+                ", apePaterno='" + apePaterno + '\'' +
+                ", apeMaterno='" + apeMaterno + '\'' +
                 '}';
     }
 }
