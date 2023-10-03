@@ -38,22 +38,25 @@ public class SimulacionLifePayloadBO extends CommonFieldsBO {
     public void setPeriodosConDescuentoPrima(List<Integer> periodosConDescuentoPrima) {this.periodosConDescuentoPrima = periodosConDescuentoPrima;}
     public List<FinanciamientoBO> getFinanciamiento() { return financiamiento; }
     public void setFinanciamiento(List<FinanciamientoBO> financiamiento) { this.financiamiento = financiamiento; }
-    public AseguradoBO getAsegurado() { return asegurado; }
-    public void setAsegurado(AseguradoBO asegurado) { this.asegurado = asegurado; }
 
+    public AseguradoBO getAsegurado() {
+        return asegurado;
+    }
 
-    
-    
-	@Override
-	public String toString() {
-		return "SimulacionLifePayloadBO [cotizaciones=" + cotizaciones + ", planes=" + planes + ", datosParticulares="
-				+ datosParticulares + ", financiamiento=" + financiamiento + ", periodosConDescuentoPrima="
-				+ periodosConDescuentoPrima + ", asegurado=" + asegurado + ", coberturas=" + coberturas + "]";
-	}
-    
-    
-    
-    
-    
+    public void setAsegurado(AseguradoBO asegurado) {
+        this.asegurado = asegurado;
+    }
 
+    @Override
+    public String toString() {
+        return "SimulacionLifePayloadBO{" +
+                "cotizaciones=" + cotizaciones +
+                ", planes=" + planes +
+                ", datosParticulares=" + datosParticulares +
+                ", financiamiento=" + financiamiento +
+                ", periodosConDescuentoPrima=" + periodosConDescuentoPrima +
+                ", asegurado=" + asegurado +
+                ", coberturas=" + coberturas +
+                '}';
+    }
 }
