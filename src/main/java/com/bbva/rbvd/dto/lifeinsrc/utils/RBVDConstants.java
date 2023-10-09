@@ -23,9 +23,4 @@ public class RBVDConstants {
         public static final String INPUT_TEXT_SECURITY ="INPUT_TEXT_SECURITY";
         public static final String B64URL = "B64URL";
     }
-
-
-
-
-
 }
