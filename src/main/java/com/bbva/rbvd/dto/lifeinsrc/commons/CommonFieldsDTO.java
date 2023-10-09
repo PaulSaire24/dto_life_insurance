@@ -25,6 +25,7 @@ public class CommonFieldsDTO extends AbstractDTO {
     private TierDTO tier;
     private String aap;
     private List<ParticipantDTO> participants;
+    private GenderDTO gender;
 
     public String getId() { return id; }
     public void setId(String id) { this.id = id; }
@@ -101,5 +102,13 @@ public class CommonFieldsDTO extends AbstractDTO {
 
     public void setParticipants(List<ParticipantDTO> participants) {
         this.participants = participants;
+    }
+
+    public GenderDTO getGender() {
+        return gender;
+    }
+
+    public void setGender(GenderDTO gender) {
+        this.gender = gender;
     }
 }
