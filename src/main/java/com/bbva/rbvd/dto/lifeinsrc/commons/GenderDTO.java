@@ -1,6 +1,8 @@
 package com.bbva.rbvd.dto.lifeinsrc.commons;
 
-public class GenderDTO {
+import java.io.Serializable;
+
+public class GenderDTO implements Serializable {
     private String id;
     private String description;
 
