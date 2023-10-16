@@ -1,6 +1,7 @@
 package com.bbva.rbvd.dto.lifeinsrc.dao;
 
 import java.math.BigDecimal;
+import java.sql.Date;
 
 public class CommonsLifeDAO extends CommonsDAO {
 
@@ -15,17 +16,21 @@ public class CommonsLifeDAO extends CommonsDAO {
     private String customerDocumentType;
     private String personalId;
     private String isBbvaCustomerType;
-    private String customerEntryDate;
+    private Date customerEntryDate;
     private BigDecimal participantRoleId;
     private String insuredCustomerName;
     private String clientLastName;
     private String userEmailPersonalDesc;
     private String phoneId;
-    private String customerBirthDate;
-    private String creationUserId;
+    private Date customerBirthDate;
 
-    private String userAuditId;
+    public Date getCustomerBirthDate() {
+        return customerBirthDate;
+    }
 
+    public void setCustomerBirthDate(Date customerBirthDate) {
+        this.customerBirthDate = customerBirthDate;
+    }
 
     public BigDecimal getInsuredAmount() {
         return insuredAmount;
@@ -107,11 +112,11 @@ public class CommonsLifeDAO extends CommonsDAO {
         this.isBbvaCustomerType = isBbvaCustomerType;
     }
 
-    public String getCustomerEntryDate() {
+    public Date getCustomerEntryDate() {
         return customerEntryDate;
     }
 
-    public void setCustomerEntryDate(String customerEntryDate) {
+    public void setCustomerEntryDate(Date customerEntryDate) {
         this.customerEntryDate = customerEntryDate;
     }
 
@@ -155,28 +160,28 @@ public class CommonsLifeDAO extends CommonsDAO {
         this.phoneId = phoneId;
     }
 
-    public String getCustomerBirthDate() {
-        return customerBirthDate;
-    }
 
-    public void setCustomerBirthDate(String customerBirthDate) {
-        this.customerBirthDate = customerBirthDate;
+    @Override
+    public String toString() {
+        final StringBuilder sb = new StringBuilder("SimulationProductDAO{");
+        sb.append("insuranceSimulationId=").append(this.getInsuranceSimulationId());
+        sb.append(", insuranceProductId=").append(this.getInsuranceProductId());
+        sb.append(", periodType='").append(periodType).append('\'');
+        sb.append(", periodNumber=").append(periodNumber).append('\'');
+        sb.append(", refundPer=").append(refundPer).append('\'');
+        sb.append(", totalReturnAmount='").append(totalReturnAmount).append('\'');
+        sb.append(", insuredId='").append(insuredId).append('\'');
+        sb.append(", customerDocumentType=").append(customerDocumentType).append('\'');
+        sb.append(", personalId=").append(personalId).append('\'');
+        sb.append(", isBbvaCustomerType='").append(isBbvaCustomerType).append('\'');
+        sb.append(", customerEntryDate='").append(customerEntryDate).append('\'');
+        sb.append(", participantRoleId='").append(participantRoleId).append('\'');
+        sb.append(", insuredCustomerName=").append(insuredCustomerName).append('\'');
+        sb.append(", clientLastName=").append(clientLastName).append('\'');
+        sb.append(", userEmailPersonalDesc='").append(userEmailPersonalDesc).append('\'');
+        sb.append(", creationUser='").append(this.getCreationUser()).append('\'');
+        sb.append(", userAudit='").append(this.getUserAudit()).append('\'');
+        sb.append('}');
+        return sb.toString();
     }
-
-    public String getCreationUserId() {
-        return creationUserId;
-    }
-
-    public void setCreationUserId(String creationUserId) {
-        this.creationUserId = creationUserId;
-    }
-
-    public String getUserAuditId() {
-        return userAuditId;
-    }
-
-    public void setUserAuditId(String userAuditId) {
-        this.userAuditId = userAuditId;
-    }
-
 }
