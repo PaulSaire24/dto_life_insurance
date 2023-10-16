@@ -1,9 +1,8 @@
 package com.bbva.rbvd.dto.lifeinsrc.dao;
 
 import java.math.BigDecimal;
-import java.sql.Timestamp;
 
-public class CustomerCommonsDao extends CommonsDAO {
+public class CommonsLifeDAO extends CommonsDAO {
 
 
     private BigDecimal insuredAmount;
