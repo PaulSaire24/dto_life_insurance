@@ -23,6 +23,7 @@ public class CommonsLifeDAO extends CommonsDAO {
     private String userEmailPersonalDesc;
     private String phoneId;
     private Date customerBirthDate;
+    private String genderId;
 
     public Date getCustomerBirthDate() {
         return customerBirthDate;
@@ -148,6 +149,14 @@ public class CommonsLifeDAO extends CommonsDAO {
         return userEmailPersonalDesc;
     }
 
+    public String getGender() {
+        return genderId;
+    }
+
+    public void setGender(String gender) {
+        this.genderId = gender;
+    }
+
     public void setUserEmailPersonalDesc(String userEmailPersonalDesc) {
         this.userEmailPersonalDesc = userEmailPersonalDesc;
     }
@@ -179,7 +188,9 @@ public class CommonsLifeDAO extends CommonsDAO {
         sb.append(", insuredCustomerName=").append(insuredCustomerName).append('\'');
         sb.append(", clientLastName=").append(clientLastName).append('\'');
         sb.append(", userEmailPersonalDesc='").append(userEmailPersonalDesc).append('\'');
+        sb.append(", userAudit='").append(this.getUserAudit()).append('\'');
         sb.append(", creationUser='").append(this.getCreationUser()).append('\'');
+        sb.append(", genderId='").append(this.getGender()).append('\'');
         sb.append(", userAudit='").append(this.getUserAudit()).append('\'');
         sb.append('}');
         return sb.toString();
