@@ -189,6 +189,7 @@ public class CommonsLifeDAO extends CommonsDAO {
         sb.append(", clientLastName=").append(clientLastName).append('\'');
         sb.append(", userEmailPersonalDesc='").append(userEmailPersonalDesc).append('\'');
         sb.append(", userAudit='").append(this.getUserAudit()).append('\'');
+        sb.append(", creationUser='").append(this.getCreationUser()).append('\'');
         sb.append(", gender='").append(this.getGender()).append('\'');
         sb.append(", userAudit='").append(this.getUserAudit()).append('\'');
         sb.append('}');
