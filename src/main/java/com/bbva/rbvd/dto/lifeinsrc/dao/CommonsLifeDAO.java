@@ -12,6 +12,25 @@ public class CommonsLifeDAO extends CommonsDAO {
     private BigDecimal totalReturnAmount;
     private String insuredId;
     private String customerDocumentType;
+    private String phoneDesc;
+    private String personalDocumentId;
+
+    public String getPhoneDesc() {
+        return phoneDesc;
+    }
+
+    public void setPhoneDesc(String phoneDesc) {
+        this.phoneDesc = phoneDesc;
+    }
+
+    public String getPersonalDocumentId() {
+        return personalDocumentId;
+    }
+
+    public void setPersonalDocumentId(String personalDocumentId) {
+        this.personalDocumentId = personalDocumentId;
+    }
+
     private String personalId;
     private String isBbvaCustomerType;
     private Date customerEntryDate;
@@ -178,6 +197,8 @@ public class CommonsLifeDAO extends CommonsDAO {
                 ", totalReturnAmount=" + totalReturnAmount +
                 ", insuredId='" + insuredId + '\'' +
                 ", customerDocumentType='" + customerDocumentType + '\'' +
+                ", phoneDesc='" + phoneDesc + '\'' +
+                ", personalDocumentId='" + personalDocumentId + '\'' +
                 ", personalId='" + personalId + '\'' +
                 ", isBbvaCustomerType='" + isBbvaCustomerType + '\'' +
                 ", customerEntryDate=" + customerEntryDate +
