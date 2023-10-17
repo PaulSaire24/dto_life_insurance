@@ -1,11 +1,9 @@
 package com.bbva.rbvd.dto.lifeinsrc.dao;
 
 import java.math.BigDecimal;
-import java.sql.Date;
+import java.util.Date;
 
 public class CommonsLifeDAO extends CommonsDAO {
-
-
     private BigDecimal insuredAmount;
     private String currencyId;
     private String periodType;
@@ -24,14 +22,6 @@ public class CommonsLifeDAO extends CommonsDAO {
     private String phoneId;
     private Date customerBirthDate;
     private String genderId;
-
-    public Date getCustomerBirthDate() {
-        return customerBirthDate;
-    }
-
-    public void setCustomerBirthDate(Date customerBirthDate) {
-        this.customerBirthDate = customerBirthDate;
-    }
 
     public BigDecimal getInsuredAmount() {
         return insuredAmount;
@@ -149,14 +139,6 @@ public class CommonsLifeDAO extends CommonsDAO {
         return userEmailPersonalDesc;
     }
 
-    public String getGender() {
-        return genderId;
-    }
-
-    public void setGender(String gender) {
-        this.genderId = gender;
-    }
-
     public void setUserEmailPersonalDesc(String userEmailPersonalDesc) {
         this.userEmailPersonalDesc = userEmailPersonalDesc;
     }
@@ -169,30 +151,43 @@ public class CommonsLifeDAO extends CommonsDAO {
         this.phoneId = phoneId;
     }
 
+    public Date getCustomerBirthDate() {
+        return customerBirthDate;
+    }
+
+    public void setCustomerBirthDate(Date customerBirthDate) {
+        this.customerBirthDate = customerBirthDate;
+    }
+
+    public String getGenderId() {
+        return genderId;
+    }
+
+    public void setGenderId(String genderId) {
+        this.genderId = genderId;
+    }
 
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("SimulationProductDAO{");
-        sb.append("insuranceSimulationId=").append(this.getInsuranceSimulationId());
-        sb.append(", insuranceProductId=").append(this.getInsuranceProductId());
-        sb.append(", periodType='").append(periodType).append('\'');
-        sb.append(", periodNumber=").append(periodNumber).append('\'');
-        sb.append(", refundPer=").append(refundPer).append('\'');
-        sb.append(", totalReturnAmount='").append(totalReturnAmount).append('\'');
-        sb.append(", insuredId='").append(insuredId).append('\'');
-        sb.append(", customerDocumentType=").append(customerDocumentType).append('\'');
-        sb.append(", personalId=").append(personalId).append('\'');
-        sb.append(", isBbvaCustomerType='").append(isBbvaCustomerType).append('\'');
-        sb.append(", customerEntryDate='").append(customerEntryDate).append('\'');
-        sb.append(", participantRoleId='").append(participantRoleId).append('\'');
-        sb.append(", insuredCustomerName=").append(insuredCustomerName).append('\'');
-        sb.append(", clientLastName=").append(clientLastName).append('\'');
-        sb.append(", userEmailPersonalDesc='").append(userEmailPersonalDesc).append('\'');
-        sb.append(", userAudit='").append(this.getUserAudit()).append('\'');
-        sb.append(", creationUser='").append(this.getCreationUser()).append('\'');
-        sb.append(", genderId='").append(this.getGender()).append('\'');
-        sb.append(", userAudit='").append(this.getUserAudit()).append('\'');
-        sb.append('}');
-        return sb.toString();
+        return "CommonsLifeDAO{" +
+                "insuredAmount=" + insuredAmount +
+                ", currencyId='" + currencyId + '\'' +
+                ", periodType='" + periodType + '\'' +
+                ", periodNumber=" + periodNumber +
+                ", refundPer=" + refundPer +
+                ", totalReturnAmount=" + totalReturnAmount +
+                ", insuredId='" + insuredId + '\'' +
+                ", customerDocumentType='" + customerDocumentType + '\'' +
+                ", personalId='" + personalId + '\'' +
+                ", isBbvaCustomerType='" + isBbvaCustomerType + '\'' +
+                ", customerEntryDate=" + customerEntryDate +
+                ", participantRoleId=" + participantRoleId +
+                ", insuredCustomerName='" + insuredCustomerName + '\'' +
+                ", clientLastName='" + clientLastName + '\'' +
+                ", userEmailPersonalDesc='" + userEmailPersonalDesc + '\'' +
+                ", phoneId='" + phoneId + '\'' +
+                ", customerBirthDate=" + customerBirthDate +
+                ", genderId='" + genderId + '\'' +
+                '}';
     }
 }
