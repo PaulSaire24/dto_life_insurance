@@ -1,6 +1,7 @@
 package com.bbva.rbvd.dto.lifeinsrc.dao;
 
 import java.math.BigDecimal;
+import java.time.LocalDate;
 import java.util.Date;
 
 public class CommonsLifeDAO extends CommonsDAO {
@@ -14,32 +15,15 @@ public class CommonsLifeDAO extends CommonsDAO {
     private String customerDocumentType;
     private String phoneDesc;
     private String personalDocumentId;
-
-    public String getPhoneDesc() {
-        return phoneDesc;
-    }
-
-    public void setPhoneDesc(String phoneDesc) {
-        this.phoneDesc = phoneDesc;
-    }
-
-    public String getPersonalDocumentId() {
-        return personalDocumentId;
-    }
-
-    public void setPersonalDocumentId(String personalDocumentId) {
-        this.personalDocumentId = personalDocumentId;
-    }
-
     private String personalId;
     private String isBbvaCustomerType;
-    private Date customerEntryDate;
+    private LocalDate customerEntryDate;
     private BigDecimal participantRoleId;
     private String insuredCustomerName;
     private String clientLastName;
     private String userEmailPersonalDesc;
     private String phoneId;
-    private Date customerBirthDate;
+    private LocalDate customerBirthDate;
     private String genderId;
 
     public BigDecimal getInsuredAmount() {
@@ -106,6 +90,22 @@ public class CommonsLifeDAO extends CommonsDAO {
         this.customerDocumentType = customerDocumentType;
     }
 
+    public String getPhoneDesc() {
+        return phoneDesc;
+    }
+
+    public void setPhoneDesc(String phoneDesc) {
+        this.phoneDesc = phoneDesc;
+    }
+
+    public String getPersonalDocumentId() {
+        return personalDocumentId;
+    }
+
+    public void setPersonalDocumentId(String personalDocumentId) {
+        this.personalDocumentId = personalDocumentId;
+    }
+
     public String getPersonalId() {
         return personalId;
     }
@@ -122,11 +122,11 @@ public class CommonsLifeDAO extends CommonsDAO {
         this.isBbvaCustomerType = isBbvaCustomerType;
     }
 
-    public Date getCustomerEntryDate() {
+    public LocalDate getCustomerEntryDate() {
         return customerEntryDate;
     }
 
-    public void setCustomerEntryDate(Date customerEntryDate) {
+    public void setCustomerEntryDate(LocalDate customerEntryDate) {
         this.customerEntryDate = customerEntryDate;
     }
 
@@ -170,11 +170,11 @@ public class CommonsLifeDAO extends CommonsDAO {
         this.phoneId = phoneId;
     }
 
-    public Date getCustomerBirthDate() {
+    public LocalDate getCustomerBirthDate() {
         return customerBirthDate;
     }
 
-    public void setCustomerBirthDate(Date customerBirthDate) {
+    public void setCustomerBirthDate(LocalDate customerBirthDate) {
         this.customerBirthDate = customerBirthDate;
     }
 
