@@ -2,7 +2,6 @@ package com.bbva.rbvd.dto.lifeinsrc.dao;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
-import java.util.Date;
 
 public class CommonsLifeDAO extends CommonsDAO {
     private BigDecimal insuredAmount;
