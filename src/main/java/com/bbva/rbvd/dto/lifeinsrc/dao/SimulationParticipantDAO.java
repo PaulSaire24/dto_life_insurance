@@ -3,7 +3,7 @@ package com.bbva.rbvd.dto.lifeinsrc.dao;
 public class SimulationParticipantDAO extends CommonsLifeDAO {
     @Override
     public String toString() {
-        return "CommonsLifeDAO{" +
+        return "SimulationParticipantDAO{" +
                 "insuredAmount=" + getInsuredAmount() +
                 ", currencyId='" + getCurrencyId() + '\'' +
                 ", periodType='" + getPeriodType() + '\'' +
