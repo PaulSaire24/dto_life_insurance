@@ -185,29 +185,4 @@ public class CommonsLifeDAO extends CommonsDAO {
         this.genderId = genderId;
     }
 
-    @Override
-    public String toString() {
-        return "CommonsLifeDAO{" +
-                "insuredAmount=" + insuredAmount +
-                ", currencyId='" + currencyId + '\'' +
-                ", periodType='" + periodType + '\'' +
-                ", periodNumber=" + periodNumber +
-                ", refundPer=" + refundPer +
-                ", totalReturnAmount=" + totalReturnAmount +
-                ", insuredId='" + insuredId + '\'' +
-                ", customerDocumentType='" + customerDocumentType + '\'' +
-                ", phoneDesc='" + phoneDesc + '\'' +
-                ", personalDocumentId='" + personalDocumentId + '\'' +
-                ", personalId='" + personalId + '\'' +
-                ", isBbvaCustomerType='" + isBbvaCustomerType + '\'' +
-                ", customerEntryDate=" + customerEntryDate +
-                ", participantRoleId=" + participantRoleId +
-                ", insuredCustomerName='" + insuredCustomerName + '\'' +
-                ", clientLastName='" + clientLastName + '\'' +
-                ", userEmailPersonalDesc='" + userEmailPersonalDesc + '\'' +
-                ", phoneId='" + phoneId + '\'' +
-                ", customerBirthDate=" + customerBirthDate +
-                ", genderId='" + genderId + '\'' +
-                '}';
-    }
 }
