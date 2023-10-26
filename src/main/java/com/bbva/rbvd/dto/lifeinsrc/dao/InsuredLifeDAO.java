@@ -6,9 +6,9 @@ public class InsuredLifeDAO extends CommonsDAO{
     private BigDecimal insuredAmount;
     private ParticipantDAO participant;
     private ContactDetailsDAO contactDetails;
-    private Term term;
-    private Refunds refunds;
-    public class Term{
+    private TermDAO term;
+    private RefundsDAO refunds;
+    public class TermDAO {
         private BigDecimal periodNumber;
         private String periodType;
 
@@ -28,7 +28,7 @@ public class InsuredLifeDAO extends CommonsDAO{
             this.periodType = periodType;
         }
     }
-    public class Refunds{
+    public class RefundsDAO {
         private BigDecimal refundPer;
         private BigDecimal totalReturnAmount;
         private String currencyId;
@@ -82,19 +82,30 @@ public class InsuredLifeDAO extends CommonsDAO{
         this.contactDetails = contactDetails;
     }
 
-    public Term getTerm() {
+    public TermDAO getTerm() {
         return term;
     }
 
-    public void setTerm(Term term) {
+    public void setTerm(TermDAO term) {
         this.term = term;
     }
 
-    public Refunds getRefunds() {
+    public RefundsDAO getRefunds() {
         return refunds;
     }
 
-    public void setRefunds(Refunds refunds) {
+    public void setRefunds(RefundsDAO refunds) {
         this.refunds = refunds;
+    }
+
+    @Override
+    public String toString() {
+        return "InsuredLifeDAO{" +
+                "insuredAmount=" + insuredAmount +
+                ", participant=" + participant +
+                ", contactDetails=" + contactDetails +
+                ", term=" + term +
+                ", refunds=" + refunds +
+                '}';
     }
 }
