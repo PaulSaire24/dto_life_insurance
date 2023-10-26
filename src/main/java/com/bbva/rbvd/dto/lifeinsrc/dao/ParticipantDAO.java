@@ -1,77 +1,21 @@
 package com.bbva.rbvd.dto.lifeinsrc.dao;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 
-public class CommonsLifeDAO extends CommonsDAO {
-    private BigDecimal insuredAmount;
-    private String currencyId;
-    private String periodType;
-    private BigDecimal periodNumber;
-    private BigDecimal refundPer;
-    private BigDecimal totalReturnAmount;
+public class ParticipantDAO implements Serializable {
     private String insuredId;
     private String customerDocumentType;
-    private String phoneDesc;
-    private String personalDocumentId;
     private String personalId;
     private String isBbvaCustomerType;
     private LocalDate customerEntryDate;
     private BigDecimal participantRoleId;
     private String insuredCustomerName;
     private String clientLastName;
-    private String userEmailPersonalDesc;
-    private String phoneId;
     private LocalDate customerBirthDate;
     private String genderId;
-
-    public BigDecimal getInsuredAmount() {
-        return insuredAmount;
-    }
-
-    public void setInsuredAmount(BigDecimal insuredAmount) {
-        this.insuredAmount = insuredAmount;
-    }
-
-    public String getCurrencyId() {
-        return currencyId;
-    }
-
-    public void setCurrencyId(String currencyId) {
-        this.currencyId = currencyId;
-    }
-
-    public String getPeriodType() {
-        return periodType;
-    }
-
-    public void setPeriodType(String periodType) {
-        this.periodType = periodType;
-    }
-
-    public BigDecimal getPeriodNumber() {
-        return periodNumber;
-    }
-
-    public void setPeriodNumber(BigDecimal periodNumber) {
-        this.periodNumber = periodNumber;
-    }
-
-    public BigDecimal getRefundPer() {
-        return refundPer;
-    }
-
-    public void setRefundPer(BigDecimal refundPer) {
-        this.refundPer = refundPer;
-    }
-
-    public BigDecimal getTotalReturnAmount() {
-        return totalReturnAmount;
-    }
-
-    public void setTotalReturnAmount(BigDecimal totalReturnAmount) {
-        this.totalReturnAmount = totalReturnAmount;
-    }
+    private ContactDetailsDAO contactDetails;
 
     public String getInsuredId() {
         return insuredId;
@@ -87,22 +31,6 @@ public class CommonsLifeDAO extends CommonsDAO {
 
     public void setCustomerDocumentType(String customerDocumentType) {
         this.customerDocumentType = customerDocumentType;
-    }
-
-    public String getPhoneDesc() {
-        return phoneDesc;
-    }
-
-    public void setPhoneDesc(String phoneDesc) {
-        this.phoneDesc = phoneDesc;
-    }
-
-    public String getPersonalDocumentId() {
-        return personalDocumentId;
-    }
-
-    public void setPersonalDocumentId(String personalDocumentId) {
-        this.personalDocumentId = personalDocumentId;
     }
 
     public String getPersonalId() {
@@ -153,22 +81,6 @@ public class CommonsLifeDAO extends CommonsDAO {
         this.clientLastName = clientLastName;
     }
 
-    public String getUserEmailPersonalDesc() {
-        return userEmailPersonalDesc;
-    }
-
-    public void setUserEmailPersonalDesc(String userEmailPersonalDesc) {
-        this.userEmailPersonalDesc = userEmailPersonalDesc;
-    }
-
-    public String getPhoneId() {
-        return phoneId;
-    }
-
-    public void setPhoneId(String phoneId) {
-        this.phoneId = phoneId;
-    }
-
     public LocalDate getCustomerBirthDate() {
         return customerBirthDate;
     }
@@ -185,4 +97,28 @@ public class CommonsLifeDAO extends CommonsDAO {
         this.genderId = genderId;
     }
 
+    public ContactDetailsDAO getContactDetails() {
+        return contactDetails;
+    }
+
+    public void setContactDetails(ContactDetailsDAO contactDetails) {
+        this.contactDetails = contactDetails;
+    }
+
+    @Override
+    public String toString() {
+        return "ParticipantDAO{" +
+                "insuredId='" + insuredId + '\'' +
+                ", customerDocumentType='" + customerDocumentType + '\'' +
+                ", personalId='" + personalId + '\'' +
+                ", isBbvaCustomerType='" + isBbvaCustomerType + '\'' +
+                ", customerEntryDate=" + customerEntryDate +
+                ", participantRoleId=" + participantRoleId +
+                ", insuredCustomerName='" + insuredCustomerName + '\'' +
+                ", clientLastName='" + clientLastName + '\'' +
+                ", customerBirthDate=" + customerBirthDate +
+                ", genderId='" + genderId + '\'' +
+                ", contactDetails=" + contactDetails +
+                '}';
+    }
 }
