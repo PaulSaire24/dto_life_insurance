@@ -5,7 +5,6 @@ import java.math.BigDecimal;
 public class InsuredLifeDAO extends CommonsDAO{
     private BigDecimal insuredAmount;
     private ParticipantDAO participant;
-    private ContactDetailsDAO contactDetails;
     private TermDAO term;
     private RefundsDAO refunds;
     public class TermDAO {
@@ -74,14 +73,6 @@ public class InsuredLifeDAO extends CommonsDAO{
         this.participant = participant;
     }
 
-    public ContactDetailsDAO getContactDetails() {
-        return contactDetails;
-    }
-
-    public void setContactDetails(ContactDetailsDAO contactDetails) {
-        this.contactDetails = contactDetails;
-    }
-
     public TermDAO getTerm() {
         return term;
     }
@@ -103,7 +94,6 @@ public class InsuredLifeDAO extends CommonsDAO{
         return "InsuredLifeDAO{" +
                 "insuredAmount=" + insuredAmount +
                 ", participant=" + participant +
-                ", contactDetails=" + contactDetails +
                 ", term=" + term +
                 ", refunds=" + refunds +
                 '}';
